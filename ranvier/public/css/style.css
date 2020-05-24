@@ -1,0 +1,131 @@
+
+/* Elements */
+
+html {
+  font-family: 'Fira Code', monospace;
+  background-color: #111;
+  color: white;
+}
+
+header {
+  text-align: center;
+}
+
+body {
+  margin: auto;
+  /* max-width: 50%; */
+  max-width: 800px;
+  padding: 20px;
+  /* text-align: center; */
+
+  animation: load_animation ease 0.7s;
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards; 
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+h4 {
+  margin-top: 0px;
+}
+
+a{
+  color: rgb(11, 211, 211);
+  text-decoration: none;
+}
+
+a:hover {
+  transition: color 0.5s ease;
+  color: #ff5543;
+}
+
+pre code {
+  background-color: #404959;
+  color: white;
+  border: 1px solid #999;
+  display: block;
+  padding: 20px;
+  word-wrap: break-word;
+
+  word-wrap: break-word;
+  overflow-x: auto;
+  /* Removes scrollbar from code box */
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  
+}
+
+/* Classes */
+
+.title {
+  color: #ff5543;
+  font-size: 90px;
+  font-weight: 800;
+  user-select: none;
+  margin-top: 5px;
+  margin-bottom: 20px;
+
+  transition: font-size 1.0s ease;
+}
+
+.logo {
+  width: 150px;
+  transition: 1.0s ease;
+}
+
+.logo:hover{
+  transform: scale(1.05);
+}
+
+.menu {
+  display: inline-block;
+  padding-bottom: 1%;
+}
+
+a.menu-item {
+  padding: 10px;
+}
+
+/* TODO: Notice blocks (Like quote blocks in Markdown) */
+
+.notice {
+
+}
+
+.notice.green {
+
+}
+
+.notice.yellow {
+
+}
+
+.notice.red {
+
+}
+
+/* Animations */
+
+@keyframes load_animation { 
+  0% { 
+      opacity: 0; 
+  } 
+  100% { 
+      opacity: 1; 
+   } 
+} 
+
+@media screen and (max-width: 580px) {
+  h1 {
+    font-size: 60px;
+  }
+}

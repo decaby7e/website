@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://ranvier.net/blog/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ranvier.net/projects/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ranvier.net/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ranvier.net/blog/first-post/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ranvier.net/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ranvier.net/scratchpad/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ranvier.net/tags/</loc>
+  </url>
+  
+</urlset>
