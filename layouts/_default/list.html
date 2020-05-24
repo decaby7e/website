@@ -9,14 +9,16 @@
 <body>
   {{ partial "header.html" }}
   
-  <!-- Gets _index.md from the blog/ folder -->
-  {{ .Content }}
+  <main>
+    <!-- Gets _index.md from the blog/ folder -->
+    {{ .Content }}
 
-  {{- range first 10 .Pages }}
-    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-    <h4>{{ .Date }}</h4>
-    {{ .Render "p"}}
-  {{- end }}
+    {{- range first 10 .Pages }}
+      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+      <h4>{{ .Date }}</h4>
+      {{ .Render "p"}}
+    {{- end }}
+  </main>
 
   {{ partial "footer.html" }}
 </body>

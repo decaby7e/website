@@ -1,5 +1,4 @@
 ---
 title: Projects
+type: directory
 ---
-
-<!-- Projects page -->

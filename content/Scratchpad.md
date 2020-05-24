@@ -25,4 +25,12 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDJMXFW27nAuiyfeOwJd1RzATJyigjeTCvQ7rjh5oZF
 
 ## Reading List
 
-- [Filesystem Hierarchy Standard](https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.pdf)
+[Filesystem Hierarchy Standard](https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.pdf)
+
+## Public Services
+
+MyelinMC (Personal Minecraft server)  -  myelin.ranvier.net
+
+Public file repository  -  [public.ranvier.net](https://public.ranvier.net/)
+
+Simple in-browser web apps - [ranvier.net/apps/dashboard/](https://ranvier.net/apps/dashboard/)

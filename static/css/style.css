@@ -7,20 +7,22 @@ html {
   color: white;
 }
 
-header {
-  text-align: center;
-}
-
 body {
   margin: auto;
-  /* max-width: 50%; */
-  max-width: 800px;
   padding: 20px;
-  /* text-align: center; */
+  max-width: 800px;
 
   animation: load_animation ease 0.7s;
   animation-iteration-count: 1; 
   animation-fill-mode: forwards; 
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  
 }
 
 footer {
@@ -56,12 +58,20 @@ pre code {
 
   word-wrap: break-word;
   overflow-x: auto;
+
   /* Removes scrollbar from code box */
   white-space: pre-wrap;
   white-space: -moz-pre-wrap;
   white-space: -pre-wrap;
   white-space: -o-pre-wrap;
   
+}
+
+code {
+  background-color: #404959;
+  color: white;
+  padding: 4px;
+  word-wrap: break-word;
 }
 
 /* Classes */
