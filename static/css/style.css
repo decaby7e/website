@@ -1,0 +1,116 @@
+
+/* Elements */
+
+html {
+  font-family: 'Fira Code', monospace;
+  background-color: #111;
+  color: white;
+}
+
+body {
+  margin: auto;
+  width: 65%;
+  padding: 20px;
+  text-align: center;
+
+  animation: load_animation ease 0.7s;
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards; 
+}
+
+footer {
+  margin-top: 40px;
+}
+
+h1 {
+  color: #ff5543;
+  font-size: 90px;
+  font-weight: 800;
+  user-select: none;
+  margin-top: 5px;
+  margin-bottom: 20px;
+
+  transition: font-size 1.0s ease;
+}
+
+h2, h3 {
+  text-align: left;
+}
+
+a{
+  color: rgb(11, 211, 211);
+  text-decoration: none;
+}
+
+a:hover {
+  transition: color 0.5s ease;
+  color: #ff5543;
+}
+
+code {
+  background-color: #404959;
+  color: white;
+  border: 1px solid #999;
+  display: block;
+  padding: 20px;
+  word-wrap: break-word;
+}
+
+/* Classes */
+
+.logo {
+  width: 150px;
+  transition: 1.0s ease;
+}
+
+.logo:hover{
+  transform: scale(1.05);
+}
+
+.menu {
+  display: inline-block;
+  padding-bottom: 1%;
+}
+
+a.menu-item {
+  padding: 10px;
+}
+
+.post {
+  text-align: left;
+}
+
+/* TODO: Notice blocks (Like quote blocks in Markdown) */
+
+.notice {
+
+}
+
+.notice.green {
+
+}
+
+.notice.yellow {
+
+}
+
+.notice.red {
+
+}
+
+/* Animations */
+
+@keyframes load_animation { 
+  0% { 
+      opacity: 0; 
+  } 
+  100% { 
+      opacity: 1; 
+   } 
+} 
+
+@media screen and (max-width: 580px) {
+  h1 {
+    font-size: 60px;
+  }
+}
