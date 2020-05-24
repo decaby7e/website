@@ -9,7 +9,8 @@ html {
 
 body {
   margin: auto;
-  width: 65%;
+  /* max-width: 50%; */
+  max-width: 800px;
   padding: 20px;
   text-align: center;
 
