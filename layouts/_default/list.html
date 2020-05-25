@@ -7,20 +7,22 @@
 </head>
 
 <body>
-  {{ partial "header.html" }}
-  
-  <main>
-    <!-- Gets _index.md from the blog/ folder -->
-    {{ .Content }}
+  <container class="main-container">
+    {{ partial "header.html" }}
+    
+    <main>
+      <!-- Gets _index.md from the blog/ folder -->
+      {{ .Content }}
 
-    {{- range first 10 .Pages }}
-      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-      <h4>{{ .Date }}</h4>
-      {{ .Render "p"}}
-    {{- end }}
-  </main>
+      {{- range first 10 .Pages }}
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+        <h4>{{ .Date }}</h4>
+        {{ .Render "p"}}
+      {{- end }}
+    </main>
 
-  {{ partial "footer.html" }}
+    {{ partial "footer.html" }}
+  </container>
 </body>
 
 </html>

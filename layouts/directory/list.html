@@ -7,23 +7,25 @@
 </head>
 
 <body>
-  {{ partial "header.html" }}
-  
-  <main>
-    <!-- Gets _index.md from the blog/ folder -->
-    {{ .Content }}
+  <container class="main-container">
+    {{ partial "header.html" }}
+    
+    <main>
+      <!-- Gets _index.md from the blog/ folder -->
+      {{ .Content }}
 
-    <!-- Gets all subdirectories and lists them -->
-    {{ $sections := (.Site.GetPage "section" .Section).Sections }}
-    {{ range $sections }}
-      <div class="project">
-        <a href={{ .Permalink }}><h3>{{ .Title }}</h3></a>
-        <p>{{ .Content }}</p>
-      </div>
-    {{ end }}
+      <!-- Gets all subdirectories and lists them -->
+      {{ $sections := (.Site.GetPage "section" .Section).Sections }}
+      {{ range $sections }}
+        <div class="project">
+          <a href={{ .Permalink }}><h3>{{ .Title }}</h3></a>
+          <p>{{ .Content }}</p>
+        </div>
+      {{ end }}
 
+    </main>
     {{ partial "footer.html" }}
-  </main>
+  </container>
 </body>
 
 </html>

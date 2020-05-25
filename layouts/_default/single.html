@@ -7,11 +7,13 @@
 </head>
 
 <body>
-  {{ partial "header.html" }}
-  <main>
-    {{ .Content }}
-  </main>
-  {{ partial "footer.html" }}
+  <container class="main-container">
+    {{ partial "header.html" }}
+    <main>
+      {{ .Content }}
+    </main>
+    {{ partial "footer.html" }}
+  </container>
 </body>
 
 </html>
