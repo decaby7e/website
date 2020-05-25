@@ -1,47 +1,39 @@
 
 /* Elements */
 
-* {
-  box-sizing: border-box;
-}
-
-html, body {
+html {
   font-family: 'Fira Code', monospace;
   background-color: #111;
   color: white;
-
-  height: 100%;
-  position: relative;
 }
 
 header {
   text-align: center;
 }
 
-main {
+body {
   margin: auto;
-  padding: 20px;
+  /* max-width: 50%; */
   max-width: 800px;
+  padding: 20px;
+  /* text-align: center; */
 
   animation: load_animation ease 0.7s;
   animation-iteration-count: 1; 
   animation-fill-mode: forwards; 
 }
 
-main h2 {
+footer {
+  margin-top: 40px;
+  text-align: center;
+}
+
+h2 {
   margin-bottom: 10px;
 }
 
-main h4 {
+h4 {
   margin-top: 0px;
-}
-
-footer {
-  text-align: center;
-
-  position: absolute;
-  bottom: 0;
-  width: 100%;
 }
 
 a{
@@ -64,20 +56,12 @@ pre code {
 
   word-wrap: break-word;
   overflow-x: auto;
-
   /* Removes scrollbar from code box */
   white-space: pre-wrap;
   white-space: -moz-pre-wrap;
   white-space: -pre-wrap;
   white-space: -o-pre-wrap;
   
-}
-
-code {
-  background-color: #404959;
-  color: white;
-  padding: 4px;
-  word-wrap: break-word;
 }
 
 /* Classes */
@@ -94,7 +78,6 @@ code {
 }
 
 .logo {
-  padding-top: 1rem;
   width: 150px;
   transition: 1.0s ease;
 }
@@ -110,14 +93,6 @@ code {
 
 a.menu-item {
   padding: 10px;
-}
-
-.main-container {
-  min-height: 100vh; /* will cover the 100% of viewport */
-  overflow: hidden;
-  display: block;
-  position: relative;
-  padding-bottom: 30px;
 }
 
 /* TODO: Notice blocks (Like quote blocks in Markdown) */
