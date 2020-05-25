@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>docker on Ranvier</title>
+    <link>https://ranvier.net/tags/docker/</link>
+    <description>Recent content in docker on Ranvier</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 24 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ranvier.net/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ranvier Docker Images</title>
+      <link>https://ranvier.net/blog/ranvier-docker-images/</link>
+      <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ranvier.net/blog/ranvier-docker-images/</guid>
+      <description>Ranvier Docker Images I&amp;rsquo;m moving up the foodchain! After lots of time invested in making my own Docker images and making some for work as well, I have decided to take them more seriously and give them a proper home here. I have already uploaded a couple of images (one for the BIND9 DNS server and another for various versions of SpigotMC). I&amp;rsquo;m planning to upload more, including:
+ OpenLDAP Kerberos Portable development environment Bastion server  Until then!</description>
+    </item>
+    
+    <item>
+      <title>Securing Docker</title>
+      <link>https://ranvier.net/blog/securing-docker/</link>
+      <pubDate>Thu, 06 Feb 2020 19:04:20 +0000</pubDate>
+      
+      <guid>https://ranvier.net/blog/securing-docker/</guid>
+      <description>Presentation Slides
+Video </description>
+    </item>
+    
+    <item>
+      <title>Introduction to Docker</title>
+      <link>https://ranvier.net/blog/introduction-to-docker/</link>
+      <pubDate>Tue, 17 Dec 2019 19:53:20 +0000</pubDate>
+      
+      <guid>https://ranvier.net/blog/introduction-to-docker/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

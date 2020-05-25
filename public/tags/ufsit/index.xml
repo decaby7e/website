@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ufsit on Ranvier</title>
+    <link>https://ranvier.net/tags/ufsit/</link>
+    <description>Recent content in ufsit on Ranvier</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Feb 2020 19:04:20 +0000</lastBuildDate>
+    
+	<atom:link href="https://ranvier.net/tags/ufsit/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Securing Docker</title>
+      <link>https://ranvier.net/blog/securing-docker/</link>
+      <pubDate>Thu, 06 Feb 2020 19:04:20 +0000</pubDate>
+      
+      <guid>https://ranvier.net/blog/securing-docker/</guid>
+      <description>Presentation Slides
+Video </description>
+    </item>
+    
+  </channel>
+</rss>
