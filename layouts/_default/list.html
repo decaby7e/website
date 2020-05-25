@@ -14,7 +14,8 @@
       <!-- Gets _index.md from the blog/ folder -->
       {{ .Content }}
 
-      {{- range first 10 .Pages }}
+      <!-- {- range first 10 .Pages } -->
+      {{- range .Pages }}
         <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
         <h4>{{ .Date }}</h4>
         {{ .Render "p"}}

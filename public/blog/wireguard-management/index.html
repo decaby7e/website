@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="/img/logo.svg" type="image/svg"/>
+<link rel="stylesheet" href="/css/style.css" type="text/css"/>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <title>Wireguard Management System - Concept Introduction</title>
+</head>
+
+<body>
+  <container class="main-container">
+    <header>
+  <a href="/"><img class="logo" src="/img/logo.svg" type="image/svg" alt="*** ImAgE dIsaPpEaReD ***"></img></a>
+  <h1 class="title">Ranvier</h1>
+  <div class="menu">
+    <a class="menu-item" href="/">Home</a>
+    <a class="menu-item" href="/blog/">Blog</a>
+    <a class="menu-item" href="/projects/">Projects</a>
+    <a class="menu-item" href="/scratchpad/">Scratchpad</a>
+  </div>
+</header>
+    <main>
+      <h1 id="introduction">Introduction</h1>
+<p>Wireguard is a beautiful thing :sob:. But one thing that I have found to be a point of contention is the lack of a simple interface for managing an existing Wireguard server. From some light browsing, I have found a couple of solutions that are mainly geared towards enterprise use or paid services but no simple FOSS CLI alternatives. Therefore, I feel that it would be nice to have a simple Bash script or Python script to accomplish this task. I&rsquo;ll keep it short and just share my early development notes below:</p>
+<hr>
+<h2 id="to-do">To-Do</h2>
+<h3 id="features">Features</h3>
+<ul>
+<li><input disabled="" type="checkbox"> Add ability to append individual users to an existing configuration hierarchy</li>
+</ul>
+<h3 id="enhancements">Enhancements</h3>
+<ul>
+<li><input disabled="" type="checkbox"> Add a web interface</li>
+<li><input disabled="" type="checkbox"> Add address collision detection while reading server.conf</li>
+</ul>
+<hr>
+<h2 id="development-notes">Development Notes</h2>
+<ul>
+<li>Scripts should be used on a per server basis; one set of scripts manages one set of servers</li>
+<li>Scripts should be stateless; can be used regardless of current server configuration
+<ul>
+<li>According to this logic, there should be some static file set somewhere detailing current server structure. Let this be called <code>server.conf</code></li>
+</ul>
+</li>
+</ul>
+<h4 id="example-serversconf">Example servers.conf</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ini" data-lang="ini"><span style="color:#66d9ef">[wg0]</span>
+<span style="color:#75715e"># Path to the server configuration file</span>
+<span style="color:#a6e22e">server_conf</span><span style="color:#f92672">=</span><span style="color:#e6db74">/etc/wireguard/neuron/wg0.conf</span>
+
+<span style="color:#75715e"># Public key of the server</span>
+<span style="color:#a6e22e">server_pubkey</span><span style="color:#f92672">=</span><span style="color:#e6db74">U29TZWN1cmVNdWNoV293ISEhcXdlcnR5MTIzNA==</span>
+
+<span style="color:#75715e"># Where will we store client configuration files?</span>
+<span style="color:#a6e22e">clients_directory</span><span style="color:#f92672">=</span><span style="color:#e6db74">/etc/wireguard/neuron/clients</span>
+
+<span style="color:#66d9ef">[wg#]</span>
+<span style="color:#75715e"># ...</span>
+</code></pre></div><ul>
+<li>This file will, by default, be loaded from the current running directory of the script. However, a new config can be specified by using the <code>-c</code> parameter.</li>
+<li>This script should be able to leave the existing configuration alone and only append its additions to its own section in the server.conf file. See example below:</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ini" data-lang="ini"><span style="color:#75715e"># Normal typical server configuration</span>
+<span style="color:#66d9ef">[Interface]</span>
+<span style="color:#a6e22e">Address</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">192.168.5.1/24</span>
+<span style="color:#a6e22e">PostUp</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">iptables -A FORWARD -i wg0 -j ACCEPT; iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE</span>
+<span style="color:#a6e22e">PostDown</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">iptables -D FORWARD -i wg0 -j ACCEPT; iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE</span>
+<span style="color:#a6e22e">ListenPort</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">42387</span>
+<span style="color:#a6e22e">PrivateKey</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">iMa3i2nmks1A3j2kn3VaRWuIto23DFasxk4=</span>
+
+<span style="color:#75715e"># Peer name</span>
+<span style="color:#66d9ef">[Peer]</span>
+<span style="color:#a6e22e">PublicKey</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">FS/HMHIMrihc+37tVR816pjh2WcoNg4cqgeGGhC8SyM=</span>
+<span style="color:#a6e22e">AllowedIPs</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">192.168.5.2</span>
+
+<span style="color:#75715e"># ...</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ini" data-lang="ini"><span style="color:#75715e"># Server configuration *with* wg-man entries</span>
+<span style="color:#66d9ef">[Interface]</span>
+<span style="color:#a6e22e">Address</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">192.168.5.1/24</span>
+<span style="color:#a6e22e">PostUp</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">iptables -A FORWARD -i wg0 -j ACCEPT; iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE</span>
+<span style="color:#a6e22e">PostDown</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">iptables -D FORWARD -i wg0 -j ACCEPT; iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE</span>
+<span style="color:#a6e22e">ListenPort</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">42387</span>
+<span style="color:#a6e22e">PrivateKey</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">iMa3i2nmks1A3j2kn3VaRWuIto23DFasxk4=</span>
+
+<span style="color:#75715e"># Peer name</span>
+<span style="color:#75715e"># Random custom comments</span>
+<span style="color:#66d9ef">[Peer]</span>
+<span style="color:#a6e22e">PublicKey</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">FS/HMHIMrihc+37tVR816pjh2WcoNg4cqgeGGhC8SyM=</span>
+<span style="color:#a6e22e">AllowedIPs</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">192.168.5.2</span>
+
+<span style="color:#75715e">####################</span>
+<span style="color:#75715e">## WG-MAN ENTRIES ##</span>
+<span style="color:#75715e">####################</span>
+
+<span style="color:#75715e"># Example_Client_Name</span>
+<span style="color:#a6e22e">NOTE ANNOTATION - The items below are to be used by wg-man as client properties</span>
+<span style="color:#75715e"># Date Added: 2019.01.05</span>
+<span style="color:#66d9ef">[Peer]</span>
+<span style="color:#a6e22e">PublicKey</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">FS/HMHIMrihc+37tVR816pjh2WcoNg4cqgeGGhC8SyM=</span>
+<span style="color:#a6e22e">AllowedIPs</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">192.168.5.3</span>
+</code></pre></div><ul>
+<li>
+<p>Method for adding strings after expressions:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sed -i <span style="color:#e6db74">&#39;/## WG-MAN ENTRIES ##/a CLIENT_STRING_HERE&#39;</span> ./server.conf
+</code></pre></div></li>
+<li>
+<p>wg-man should also be able to initialize new server configurations. This is where the two use cases of the script appear:</p>
+<ol>
+<li>Management mode - Used to add and remove clients from an existing wireguard configuration file</li>
+<li>Tool mode - Used to wrap many common procedures that may be used in a Wireguard configuration collection, e.g:
+<ol>
+<li>Generating server configurations</li>
+<li>Generating client configurations to be outputted directly to tty as text or as a file</li>
+<li>Convert wireguard client configs to QR codes</li>
+</ol>
+</li>
+</ol>
+</li>
+</ul>
+<h3 id="script-structure">Script Structure</h3>
+<ol>
+<li>wg-man - Master management script. Other scripts will be used inside this one but ultimately this <em>should</em> be the only thing the user has to use</li>
+<li>scripts/ - Additional scripts used with <strong>wg-man</strong> that supplement it.</li>
+<li>./servers.conf</li>
+</ol>
+<h4 id="server-command-usage">Server command usage</h4>
+<table>
+<thead>
+<tr>
+<th>*</th>
+<th>Required parameter</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>(-x)</strong></td>
+<td><strong>Synonym to long parameter</strong></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># Parameters</span>
+
+<span style="color:#75715e">## Specifying configuration file</span>
+wg-man ... <span style="color:#75715e"># With configuration file in working directory</span>
+wg-man --config <span style="color:#f92672">(</span>-c<span style="color:#f92672">)</span> /path/to/config/file.conf ...
+
+<span style="color:#75715e"># Subcommands</span>
+
+<span style="color:#75715e">## Description: Initialize a new server and add entry to servers.conf</span>
+<span style="color:#75715e">## Parameters:</span>
+<span style="color:#75715e">## --interface (-i)*:   Name of interface</span>
+<span style="color:#75715e">## --name (-n):         Name of server		    (Default: Random UUID)</span>
+<span style="color:#75715e">## --ip (-a):           IP of server            (Default: 192.168.1.1)</span>
+<span style="color:#75715e">## --privkey (-k):      Private key of server   (Default: Generated from wg)</span>
+wg-man init --name <span style="color:#e6db74">&#34;Server_Nickname&#34;</span>
+
+<span style="color:#75715e">## Description: Add clients (existing or not) to a server configuration</span>
+<span style="color:#75715e">## Parameters:</span>
+<span style="color:#75715e">## --ip (-a)*:     IP of client</span>
+<span style="color:#75715e">## --cat (-l):     Display client entry</span>
+<span style="color:#75715e">## --name (-n):    Name of client         (Default: Random UUID)</span>
+<span style="color:#75715e">## --pubkey (-k):  Public key of client   (Default: Generated from wg)</span>
+wg-man add --name <span style="color:#e6db74">&#34;Client_Nickname&#34;</span> --ip  <span style="color:#e6db74">&#34;192.168.5.2&#34;</span> --pubkey <span style="color:#e6db74">&#34;EQWEF234fbi234bfawSEFqi3jh4bFq==&#34;</span> --cat
+
+<span style="color:#75715e">## Description: Create a client configuration for a server configuration and add them to the server configuration</span>
+<span style="color:#75715e">## Parameters:</span>
+<span style="color:#75715e">## --ip (-a)*:     IP of client</span>
+<span style="color:#75715e">## --cat (-l):     Display client entry</span>
+<span style="color:#75715e">## --name (-n):    Name of client         (Default: Random UUID)</span>
+wg-man create --name <span style="color:#e6db74">&#34;Client_Nickname&#34;</span> --ip <span style="color:#e6db74">&#34;192.168.5.65&#34;</span>
+</code></pre></div><h6 id="-making-this-beautiful-spec-is-making-me-want-to-do-this-proper-and-not-just-make-it-a-bash-script-lol">* Making this beautiful spec is making me want to do this proper and not just make it a bash script lol</h6>
+
+    </main>
+    <footer>
+  <p>🔧 with 🧡💙 by decaby7e</p>
+</footer>
+  </container>
+</body>
+
+</html>
