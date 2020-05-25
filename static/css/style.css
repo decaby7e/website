@@ -7,7 +7,11 @@ html {
   color: white;
 }
 
-body {
+header {
+  text-align: center;
+}
+
+main {
   margin: auto;
   padding: 20px;
   max-width: 800px;
@@ -15,14 +19,6 @@ body {
   animation: load_animation ease 0.7s;
   animation-iteration-count: 1; 
   animation-fill-mode: forwards; 
-}
-
-header {
-  text-align: center;
-}
-
-main {
-  
 }
 
 footer {
