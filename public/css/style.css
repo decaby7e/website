@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+::selection {
+  background-color: #ff5543;
+  color: white;
+}
+
 html, body {
   font-family: 'Fira Code', monospace;
   background-color: #111;

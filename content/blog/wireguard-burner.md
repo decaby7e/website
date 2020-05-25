@@ -7,7 +7,7 @@ categories: []
 draft: false
 ---
 
-![Wireguard Burner](/img/wg-burner.png)
+{{< image src="/img/wg-burner.png" >}}
 
 # Introduction
 

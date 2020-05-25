@@ -20,7 +20,7 @@ For my personal desktop, I run the latest distribution of Ubuntu, which at the t
  - [Dotfiles](https://github.com/decaby7e/dotfiles) - Dotfiles that I use for customization across my machines
  - [Arronax](https://www.florian-diesch.de/software/arronax/) - Program for creating and modifying .desktop files
 
-## ![Desktop Screenshot](/img/neon-screenshot.png)
+{{< image src="/img/neon-screenshot.png" >}}
 
 _NOTE_: Recently, I have tried most of the vanilla options on Ubuntu 19.10 and have been very pleased with the default gnome-shell theme. Therefore, I have elected to only use the [Papirus Icon Pack](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) as a customization.
 
