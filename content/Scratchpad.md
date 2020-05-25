@@ -34,3 +34,9 @@ MyelinMC (Personal Minecraft server)  -  myelin.ranvier.net
 Public file repository  -  [public.ranvier.net](https://public.ranvier.net/)
 
 Simple in-browser web apps - [ranvier.net/apps/dashboard/](https://ranvier.net/apps/dashboard/)
+
+## Favorite Emojis
+
+```text
+🗿🧹🔧👁🤯🚧⚙️😎🐋✔🖌️🧡💙🗑➕➖🎇🚨
+```
