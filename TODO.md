@@ -8,3 +8,4 @@
 - [x] Proper image resizing and bordering
 - [ ] Add tags under post date
 - [ ] Improve tags / categories page
+- [ ] prism.js for syntax highlighting
