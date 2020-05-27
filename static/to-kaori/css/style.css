@@ -1,0 +1,11 @@
+#main-div {
+    position: absolute;
+    z-index: 1;
+}
+
+#confetti {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+}

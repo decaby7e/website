@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/decaby7e
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ranvier.net
+  * I am decaby7e (https://keybase.io/decaby7e) on keybase.
+  * I have a public key ASAW0t6DhoTOTgLRJxLiZqbBtlkxwOF1ulcoBmegQxyZrQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012016d2de838684ce4e02d12712e266a6c1b65931c0e175ba57280667a0431c99ad0a",
+      "host": "keybase.io",
+      "kid": "012016d2de838684ce4e02d12712e266a6c1b65931c0e175ba57280667a0431c99ad0a",
+      "uid": "28702f3cc65aee652089b0e4e5c5ea19",
+      "username": "decaby7e"
+    },
+    "merkle_root": {
+      "ctime": 1576972521,
+      "hash": "9d99c29bb7d0a3c59eeaa1ff3fcec1d2d785ab329faeea8aa3272e0dbe57f15fa92129c4ac4ad424d78d974a3839e4a43a947d6445953572b7600bfb548dc49e",
+      "hash_meta": "39830a5eb8da50dbdbd3d7ef23c980e2b91b77eb27dd5a3301d19d2955989eae",
+      "seqno": 13888797
+    },
+    "service": {
+      "entropy": "aHDjAMbeLzol5fp9QI5Ve/uV",
+      "hostname": "ranvier.net",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.1.1"
+  },
+  "ctime": 1576972527,
+  "expire_in": 504576000,
+  "prev": "07c0271c582336779d54676cb9c0abbb28c29345d85b771b85014ee9fae4cca4",
+  "seqno": 17,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgFtLeg4aEzk4C0ScS4mamwbZZMcDhdbpXKAZnoEMcma0Kp3BheWxvYWTESpcCEcQgB8AnHFgjNnedVGdsucCruyjCk0XYW3cbhQFO6frkzKTEIKOrLuiKA8NrDUfmZQChMeszPDB8QBu27S8DRDjC7cSGAgHCo3NpZ8RASZC0wpx55RAzneG+mb24Dy06Uvp4PNe4XprISA9jI9uCGk6ZdfRsS1VhyJgTJc5Y6OwBo9sRNjm9SPo8cMt2B6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIIfsqFIlPf77Ial+p/cfLlXU9y4cGzTfjFoFBRNELBBao3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/decaby7e
+
+==================================================================
