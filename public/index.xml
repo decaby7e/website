@@ -127,15 +127,6 @@ Ubuntu Customizations For my personal desktop, I run the latest distribution of 
     </item>
     
     <item>
-      <title>My First Post!</title>
-      <link>https://ranvier.net/blog/first-post/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ranvier.net/blog/first-post/</guid>
-      <description>Hello world! This is my first post on this brand-spankin-new website 😎</description>
-    </item>
-    
-    <item>
       <title>OpenLDAP Test Post</title>
       <link>https://ranvier.net/projects/openldap-container/test-post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
