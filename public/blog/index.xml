@@ -6,21 +6,10 @@
     <description>Recent content in Blog on Ranvier</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 May 2020 23:47:53 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.ranvier.net/blog/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Wireguard Quickstart</title>
-      <link>https://www.ranvier.net/blog/wireguard-quickstart/</link>
-      <pubDate>Thu, 28 May 2020 23:47:53 -0400</pubDate>
-      
-      <guid>https://www.ranvier.net/blog/wireguard-quickstart/</guid>
-      <description>Wireguard Quickstart Guide I know! You are a very busy person and taking the time to read my wonderful and extensive tutorials isn&amp;rsquo;t on your list of priorities :&#39;( Fortunately, I understand and forgive you for this and this section will help you jump right into using Wireguard.
-Installing Wireguard For Ubuntu &amp;gt;= 19.10, Wireguard comes built right in! Just install the utility scripts:
-$ apt install wireguard For older versions of Ubuntu:</description>
-    </item>
     
     <item>
       <title>Ranvier Docker Images</title>
