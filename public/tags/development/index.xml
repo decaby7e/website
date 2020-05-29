@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>development on Ranvier</title>
-    <link>https://ranvier.net/tags/development/</link>
+    <link>https://www.ranvier.net/tags/development/</link>
     <description>Recent content in development on Ranvier</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 06 Feb 2020 19:04:20 +0000</lastBuildDate>
     
-	<atom:link href="https://ranvier.net/tags/development/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.ranvier.net/tags/development/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Securing Docker</title>
-      <link>https://ranvier.net/blog/securing-docker/</link>
+      <link>https://www.ranvier.net/blog/securing-docker/</link>
       <pubDate>Thu, 06 Feb 2020 19:04:20 +0000</pubDate>
       
-      <guid>https://ranvier.net/blog/securing-docker/</guid>
+      <guid>https://www.ranvier.net/blog/securing-docker/</guid>
       <description>Presentation Slides
 Video </description>
     </item>
     
     <item>
       <title>Introduction to Docker</title>
-      <link>https://ranvier.net/blog/introduction-to-docker/</link>
+      <link>https://www.ranvier.net/blog/introduction-to-docker/</link>
       <pubDate>Tue, 17 Dec 2019 19:53:20 +0000</pubDate>
       
-      <guid>https://ranvier.net/blog/introduction-to-docker/</guid>
+      <guid>https://www.ranvier.net/blog/introduction-to-docker/</guid>
       <description></description>
     </item>
     

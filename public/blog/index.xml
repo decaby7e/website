@@ -2,97 +2,97 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Ranvier</title>
-    <link>https://ranvier.net/blog/</link>
+    <link>https://www.ranvier.net/blog/</link>
     <description>Recent content in Blog on Ranvier</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 24 May 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ranvier.net/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.ranvier.net/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ranvier Docker Images</title>
-      <link>https://ranvier.net/blog/ranvier-docker-images/</link>
+      <link>https://www.ranvier.net/blog/ranvier-docker-images/</link>
       <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ranvier.net/blog/ranvier-docker-images/</guid>
+      <guid>https://www.ranvier.net/blog/ranvier-docker-images/</guid>
       <description>Ranvier Docker Images I&amp;rsquo;m moving up the foodchain! After lots of time invested in making my own Docker images and making some for work as well, I have decided to take them more seriously and give them a proper home here. I have already uploaded a couple of images (one for the BIND9 DNS server and another for various versions of SpigotMC). I&amp;rsquo;m planning to upload more, including:
  OpenLDAP Kerberos Portable development environment Bastion server  Until then!</description>
     </item>
     
     <item>
       <title>Securing Docker</title>
-      <link>https://ranvier.net/blog/securing-docker/</link>
+      <link>https://www.ranvier.net/blog/securing-docker/</link>
       <pubDate>Thu, 06 Feb 2020 19:04:20 +0000</pubDate>
       
-      <guid>https://ranvier.net/blog/securing-docker/</guid>
+      <guid>https://www.ranvier.net/blog/securing-docker/</guid>
       <description>Presentation Slides
 Video </description>
     </item>
     
     <item>
       <title>common.sh</title>
-      <link>https://ranvier.net/blog/common.sh/</link>
+      <link>https://www.ranvier.net/blog/common.sh/</link>
       <pubDate>Fri, 17 Jan 2020 20:08:00 -0500</pubDate>
       
-      <guid>https://ranvier.net/blog/common.sh/</guid>
+      <guid>https://www.ranvier.net/blog/common.sh/</guid>
       <description>PICTURE HERE
 common.sh - A solution to repeated code in bash scripts https://git.ranvier.net/decaby7e/bash-common</description>
     </item>
     
     <item>
       <title>Wireguard AppIndicator</title>
-      <link>https://ranvier.net/blog/wireguard-appindicator/</link>
+      <link>https://www.ranvier.net/blog/wireguard-appindicator/</link>
       <pubDate>Mon, 30 Dec 2019 20:03:30 -0500</pubDate>
       
-      <guid>https://ranvier.net/blog/wireguard-appindicator/</guid>
+      <guid>https://www.ranvier.net/blog/wireguard-appindicator/</guid>
       <description>Wireguard AppIndicator At the time of writing, December of 2019, there exists no simple to use graphical interface for managing Wireguard connections as far as I&amp;rsquo;m concerned. To resolve this issue, I wanted to make an AppIndicator with the following capabilities:
  View status of Wireguard interface Enable and disable Wireguard interface View and copy the IP address of the interface  I also wanted to be able to use this on both Gnome Shell systems and systems with only support for AppIndicators, so the script is able to be used as either a standalone script running in the background or as a Gnome Shell extension.</description>
     </item>
     
     <item>
       <title>Best Digital Note Solutions</title>
-      <link>https://ranvier.net/blog/note-taking-solutions/</link>
+      <link>https://www.ranvier.net/blog/note-taking-solutions/</link>
       <pubDate>Sun, 29 Dec 2019 21:08:30 -0500</pubDate>
       
-      <guid>https://ranvier.net/blog/note-taking-solutions/</guid>
+      <guid>https://www.ranvier.net/blog/note-taking-solutions/</guid>
       <description>Best Digital Note Solutions  Over a course of around 4 years, I have jumped from platform to platform, deperately in search of an elegant and effective digital note taking solution for my personal and professional needs. I needed to find something that would allow me to make messy notes and to-do lists for school while at the same time having a structured, organized system for various professional and personal development projects.</description>
     </item>
     
     <item>
       <title>Wireguard Management System - Concept Introduction</title>
-      <link>https://ranvier.net/blog/wireguard-management/</link>
+      <link>https://www.ranvier.net/blog/wireguard-management/</link>
       <pubDate>Sat, 28 Dec 2019 23:49:20 -0500</pubDate>
       
-      <guid>https://ranvier.net/blog/wireguard-management/</guid>
+      <guid>https://www.ranvier.net/blog/wireguard-management/</guid>
       <description>Introduction Wireguard is a beautiful thing :sob:. But one thing that I have found to be a point of contention is the lack of a simple interface for managing an existing Wireguard server. From some light browsing, I have found a couple of solutions that are mainly geared towards enterprise use or paid services but no simple FOSS CLI alternatives. Therefore, I feel that it would be nice to have a simple Bash script or Python script to accomplish this task.</description>
     </item>
     
     <item>
       <title>Home Surveilance System</title>
-      <link>https://ranvier.net/blog/home-surveilance-system/</link>
+      <link>https://www.ranvier.net/blog/home-surveilance-system/</link>
       <pubDate>Wed, 25 Dec 2019 22:41:49 -0500</pubDate>
       
-      <guid>https://ranvier.net/blog/home-surveilance-system/</guid>
+      <guid>https://www.ranvier.net/blog/home-surveilance-system/</guid>
       <description>Introduction Depending on where you live in the US, your area can either be considered very nice or appealing to drug addicts. In my case, the latter is more true than the former unfortunately. However, there is one thing that can help to prevent this predicament from impacting our lives too much: technology! Network cameras have become incredibly cheap and I have found that this offbrand IP camera has done a great job thus far.</description>
     </item>
     
     <item>
       <title>Introduction to Docker</title>
-      <link>https://ranvier.net/blog/introduction-to-docker/</link>
+      <link>https://www.ranvier.net/blog/introduction-to-docker/</link>
       <pubDate>Tue, 17 Dec 2019 19:53:20 +0000</pubDate>
       
-      <guid>https://ranvier.net/blog/introduction-to-docker/</guid>
+      <guid>https://www.ranvier.net/blog/introduction-to-docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Useful Software</title>
-      <link>https://ranvier.net/blog/useful-software/</link>
+      <link>https://www.ranvier.net/blog/useful-software/</link>
       <pubDate>Tue, 17 Dec 2019 03:00:27 +0000</pubDate>
       
-      <guid>https://ranvier.net/blog/useful-software/</guid>
+      <guid>https://www.ranvier.net/blog/useful-software/</guid>
       <description>A common theme in this catalogue of software is that most entries here are good looking, lightweight, and easy to install (with Docker). Please send me any suggestions for additions should you have any!
 Ubuntu Customizations For my personal desktop, I run the latest distribution of Ubuntu, which at the time of writing is 19.10. On here, I have some minor customizations that vastly improve my QoL:
  Plank - An amazing dock solution that is dead simple and aesthetically pleasing Conky - System monitor program that is complicated to configure but reliable and simple when its up and running PopOS GNOME Shell Theme - All the beauty of PopOS along with the vanilla experience of good ol&amp;rsquo; Ubuntu Papirus Icon Pack - Ubuntu icons are getting better but Papirus still has my heart Dotfiles - Dotfiles that I use for customization across my machines Arronax - Program for creating and modifying .</description>
@@ -100,28 +100,28 @@ Ubuntu Customizations For my personal desktop, I run the latest distribution of 
     
     <item>
       <title>Wireguard Tutorial</title>
-      <link>https://ranvier.net/blog/wireguard-tutorial/</link>
+      <link>https://www.ranvier.net/blog/wireguard-tutorial/</link>
       <pubDate>Tue, 03 Dec 2019 01:25:43 +0000</pubDate>
       
-      <guid>https://ranvier.net/blog/wireguard-tutorial/</guid>
+      <guid>https://www.ranvier.net/blog/wireguard-tutorial/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Wireguard Burner VPN</title>
-      <link>https://ranvier.net/blog/wireguard-burner/</link>
+      <link>https://www.ranvier.net/blog/wireguard-burner/</link>
       <pubDate>Sat, 30 Nov 2019 04:38:51 +0000</pubDate>
       
-      <guid>https://ranvier.net/blog/wireguard-burner/</guid>
+      <guid>https://www.ranvier.net/blog/wireguard-burner/</guid>
       <description>Introduction Have you ever gone to the conveinence store and bought a disposable phone as a kid? Maybe not, but I was always fascinated by those kinds of things and I did that! I thought that the idea of having a burner phone was interesting because it was another way to detach your name from whatever communication medium you were using. Nowadays anytime you communicate your name is always tied with that message.</description>
     </item>
     
     <item>
       <title>My First Post</title>
-      <link>https://ranvier.net/blog/my-first-post/</link>
+      <link>https://www.ranvier.net/blog/my-first-post/</link>
       <pubDate>Fri, 29 Nov 2019 07:47:55 +0000</pubDate>
       
-      <guid>https://ranvier.net/blog/my-first-post/</guid>
+      <guid>https://www.ranvier.net/blog/my-first-post/</guid>
       <description>Every blog should have a first post, so here&amp;rsquo;s mine! This blog was created in December of 2019 by Jack Polk. In this site, I hope to write about my ongoing, past, and future projects, give tutorials on programming and Linux related systems, and share any useful information I can find.
 #!/bin/bash  echo &amp;#34;Hello world!&amp;#34; exit 0 </description>
     </item>
