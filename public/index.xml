@@ -6,10 +6,21 @@
     <description>Recent content on Ranvier</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2020 23:47:53 -0400</lastBuildDate>
     
 	<atom:link href="https://www.ranvier.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Wireguard Quickstart</title>
+      <link>https://www.ranvier.net/blog/wireguard-quickstart/</link>
+      <pubDate>Thu, 28 May 2020 23:47:53 -0400</pubDate>
+      
+      <guid>https://www.ranvier.net/blog/wireguard-quickstart/</guid>
+      <description>Wireguard Quickstart Guide I know! You are a very busy person and taking the time to read my wonderful and extensive tutorials isn&amp;rsquo;t on your list of priorities :&#39;( Fortunately, I understand and forgive you for this and this section will help you jump right into using Wireguard.
+Installing Wireguard For Ubuntu &amp;gt;= 19.10, Wireguard comes built right in! Just install the utility scripts:
+$ apt install wireguard For older versions of Ubuntu:</description>
+    </item>
     
     <item>
       <title>Ranvier Docker Images</title>
@@ -96,15 +107,6 @@ common.sh - A solution to repeated code in bash scripts https://git.ranvier.net/
       <description>A common theme in this catalogue of software is that most entries here are good looking, lightweight, and easy to install (with Docker). Please send me any suggestions for additions should you have any!
 Ubuntu Customizations For my personal desktop, I run the latest distribution of Ubuntu, which at the time of writing is 19.10. On here, I have some minor customizations that vastly improve my QoL:
  Plank - An amazing dock solution that is dead simple and aesthetically pleasing Conky - System monitor program that is complicated to configure but reliable and simple when its up and running PopOS GNOME Shell Theme - All the beauty of PopOS along with the vanilla experience of good ol&amp;rsquo; Ubuntu Papirus Icon Pack - Ubuntu icons are getting better but Papirus still has my heart Dotfiles - Dotfiles that I use for customization across my machines Arronax - Program for creating and modifying .</description>
-    </item>
-    
-    <item>
-      <title>Wireguard Tutorial</title>
-      <link>https://www.ranvier.net/blog/wireguard-tutorial/</link>
-      <pubDate>Tue, 03 Dec 2019 01:25:43 +0000</pubDate>
-      
-      <guid>https://www.ranvier.net/blog/wireguard-tutorial/</guid>
-      <description>Wireguard Tutorial Introduction TL; DR!! Conceptual Overview Essential Commands References </description>
     </item>
     
     <item>
