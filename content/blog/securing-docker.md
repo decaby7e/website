@@ -8,7 +8,7 @@ draft: false
 
 # Presentation
 
-[Slides](https://public.ranvier.net/public/UFSIT/intro-to-docker/Securing%20Docker%20Containers%20%5BUF%20InfoSec%5D.pdf)
+[Slides](https://public.ranvier.net/UFSIT/intro-to-docker/Securing%20Docker%20Containers%20%5BUF%20InfoSec%5D.pdf)
 
 # Video
 
