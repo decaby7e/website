@@ -1,7 +1,7 @@
 ---
 title: "Wireguard Quickstart"
 date: 2020-05-28T23:47:53-04:00
-draft: true
+draft: false
 tags: ['wireguard', 'tutorial']
 ---
 
@@ -37,19 +37,64 @@ $ tree /etc/wireguard/
 0 directories, 1 file
 ```
 
-All configuration for Wireguard lives in `/etc/wireguard`. Every configuration file in this directory represents a Wireguard interface, which may be one or more *tunnels* between network peers.
+All configuration for Wireguard lives in `/etc/wireguard`. Every configuration file in this directory represents a Wireguard interface, which may contain one or more *tunnels* between network peers.
+
+## General Configuration
+
+No matter what setup you choose to implement, there are a few common variables between all approaches.
+
+1. Generate private and public keys on your **client and server** machine
+
+```bash
+cd /etc/wireguard/
+wg genkey | tee privatekey | wg pubkey > publickey
+```
 
 ## Traditional Catch-All VPN
 
 {{< image src="/img/wireguard-quickstart-trad.svg" >}}
 
-TODO
+This setup is akin to what you would see with a traditional VPN service from someone like NordVPN or Private Internet Access. You might also do something like this with OpenVPN by yourself. The idea is that all of your traffic from whatever device your on is proxied to another device that will route it on your behalf. This is a key step in keeping your internet traffic private.
+
+1. On the client, add a peer to your interface that routes all IPs (`0.0.0.0/0`)
+
+`/etc/wireguard/wg0.conf` with permissions `600`
+
+```ini
+[Interface]
+PrivateKey=<PRIVATE KEY>
+Address=192.168.30.10/32
+ListenPort=51820
+
+[Peer]
+PublicKey=<SERVERS PUBLIC KEY>
+AllowedIPs=0.0.0.0/0
+Endpoint=<SERVER IP>:51820
+```
 
 ## Connecting to a Private Network (e.g. Home or work)
 
 {{< image src="/img/wireguard-quickstart-priv.svg" alt="image is taking a break" >}}
 
-TODO
+If you would like to access a private network (e.g. your home so you can access a NAS or computers that you would like to keep private) from a remote location, Wireguard can also be of use!
+
+1. On the client, add a peer to your interface that routes only the IPs of the remote network (`10.5.0.0/24`)
+
+`/etc/wireguard/wg0.conf` with permissions `600`
+
+```ini
+[Interface]
+PrivateKey=<PRIVATE KEY>
+Address=192.168.30.10/32
+ListenPort=51820
+
+[Peer]
+PublicKey=<SERVERS PUBLIC KEY>
+AllowedIPs=10.5.0.0/24
+Endpoint=<SERVER IP>:51820
+```
+
+This configuration is identical to the last, but we instead only route the IPs we want rather than absolutely everything.
 
 ## Commands to Know
 
@@ -64,4 +109,5 @@ Automatically start a tunnel ~~~~~~~ `systemctl enable wg-quick@TUNNEL_NAME`
 ## References
 
 [Official Installation Instructions](https://www.wireguard.com/install/)
+
 [(Un)Official Wireguard Documentation](https://docs.sweeting.me/s/wireguard)
