@@ -6,8 +6,6 @@ tags: ["self-hosted", "software", "list", "productivity"]
 draft: false
 ---
 
-# Best Digital Note Solutions
-
 ---
 
 Over a course of around 4 years, I have jumped from platform to platform, deperately in search of an elegant and effective digital note taking solution for my personal and professional needs. I needed to find something that would allow me to make messy notes and to-do lists for school while at the same time having a structured, organized system for various professional and personal development projects. Below is a synopsis of my journey in searching for this holy grail as well as my current solution that I have found to work the best. If you are more interested in a list of these to browse for yourself, simply scroll to the bottom of the post.

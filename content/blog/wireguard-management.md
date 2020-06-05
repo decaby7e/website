@@ -6,7 +6,7 @@ tags: ["projects", "wireguard", "bash"]
 draft: false
 ---
 
-# Introduction
+## Introduction
 
 Wireguard is a beautiful thing :sob:. But one thing that I have found to be a point of contention is the lack of a simple interface for managing an existing Wireguard server. From some light browsing, I have found a couple of solutions that are mainly geared towards enterprise use or paid services but no simple FOSS CLI alternatives. Therefore, I feel that it would be nice to have a simple Bash script or Python script to accomplish this task. I'll keep it short and just share my early development notes below:
 

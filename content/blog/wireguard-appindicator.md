@@ -7,8 +7,6 @@ draft: false
 
 ---
 
-# Wireguard AppIndicator
-
 At the time of writing, December of 2019, there exists no simple to use graphical interface for managing Wireguard connections as far as I'm concerned. To resolve this issue, I wanted to make an AppIndicator with the following capabilities:
 
 - View status of Wireguard interface

@@ -9,7 +9,7 @@ draft: false
 
 A common theme in this catalogue of software is that most entries here are good looking, lightweight, and easy to install (with Docker). Please send me any suggestions for additions should you have any!
 
-# Ubuntu Customizations
+## Ubuntu Customizations
 
 For my personal desktop, I run the latest distribution of Ubuntu, which at the time of writing is 19.10. On here, I have some minor customizations that vastly improve my QoL:
 
@@ -24,7 +24,7 @@ For my personal desktop, I run the latest distribution of Ubuntu, which at the t
 
 _NOTE_: Recently, I have tried most of the vanilla options on Ubuntu 19.10 and have been very pleased with the default gnome-shell theme. Therefore, I have elected to only use the [Papirus Icon Pack](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) as a customization.
 
-# Privacy Tools
+## Privacy Tools
 
 Brought to you by NordVPN! Buy today and save 50% on the ammount of information we record rather than letting your ISP record it.
 
@@ -33,14 +33,14 @@ Brought to you by NordVPN! Buy today and save 50% on the ammount of information 
  - [Tor Browser](https://www.torproject.org/download/) - For the paranoid in all of us
  - [Keybase](https://keybase.io/) - Its like [Signal](https://signal.org/) but different ¯\\\_(ツ)\_/¯
 
-# InfoSec
+## InfoSec
 
  - [Burpsuite](https://portswigger.net/burp) - Swiss Army Knife of web traffic middleware
  - [HxD (Hex Editor)](https://mh-nexus.de/en/hxd/) - Plain ol' hex editor
  - [Wireshark](https://www.wireshark.org/) - Makes you feel like a hacker while you view network traffic whizzing by
 
 
-# Development Tools
+## Development Tools
 
 For development, here are the bare essentials for any system:
 
@@ -57,11 +57,11 @@ Windows doesn't come with all the features that Ubuntu comes with, so I add some
  - [VMware Workstation](https://www.vmware.com/products/workstation-pro.html) - I prefer virt-manager but this is what you get with Windows...
  - [WinSCP](https://winscp.net/eng/index.php) - Nice simple SFTP client for Windows
 
-# DevOps
+## DevOps
 
 ### *Cricket*
 
-# Self-Hosted Solutions
+## Self-Hosted Solutions
 
  - [Hugo](https://gohugo.io/) - I've tried things like [Ghost](https://ghost.org/) but I like this for it's simplicity and lightweightness
  - [Filebrowser](https://filebrowser.xyz/) - Beautiful and lightweight web-based filebrowser
@@ -75,7 +75,7 @@ Windows doesn't come with all the features that Ubuntu comes with, so I add some
  - [Caddy](https://caddyserver.com/) - Reverse proxy and automatic HTTPS. What more can you ask for?
  - [MotionEye](https://github.com/ccrisan/motioneye) - A simple web interface for network cameras
 
-# ISOs
+## ISOs
 
 This is less of a list of applications and more of a list of application collections. Nevertheless...
 
@@ -84,11 +84,11 @@ This is less of a list of applications and more of a list of application collect
  - [UBCD](https://www.ultimatebootcd.com/) - Good for debugging and data recovery
  - [MotionEyeOS](https://github.com/ccrisan/motioneyeos) - Super awesome way to turn a $20 Raspberry Pi Zero W + Camera module into a network camera. Might make a post about this...
 
-# Things I Haven't Tested Yet
+## Things I Haven't Tested Yet
 
 I've looked through the internet for hours looking for 
 
-# Miscellaneous
+## Miscellaneous
 
  - [Firefox](https://www.mozilla.org/en-US/firefox/) - Firefox > Chrome ( but Chrome is less ugly :'( )
  - [Enpass](https://www.enpass.io/) - Password manager
@@ -98,7 +98,7 @@ I've looked through the internet for hours looking for
 
 
 
-# Additional Links
+## Additional Links
 [Awesome Self Hosted Software Repository](https://github.com/awesome-selfhosted/awesome-selfhosted)
 
 [My personal catalogue of note taking software](https://blog.ranvier.net/2019/12/best-digital-note-solutions/)

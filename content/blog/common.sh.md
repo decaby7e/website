@@ -9,7 +9,7 @@ draft: false
 
 PICTURE HERE
 
-# common.sh - A solution to repeated code in bash scripts
+## common.sh - A solution to repeated code in bash scripts
 
 https://git.ranvier.net/decaby7e/bash-common
 

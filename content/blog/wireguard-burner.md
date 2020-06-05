@@ -9,7 +9,7 @@ draft: false
 
 {{< image src="/img/wg-burner.png" >}}
 
-# Introduction
+## Introduction
 
 Have you ever gone to the conveinence store and bought a disposable phone as a kid? Maybe not, but I was always fascinated by those kinds of things and I did that!
 I thought that the idea of having a burner phone was interesting because it was another way to detach your name from whatever communication medium you were using. Nowadays anytime you communicate your name is always tied with that message. Even if you decide to spin up a VPN on a VPS provider like AWS, Digital Ocean, etc. your name is still tied to whatever payment method you use! Even when you get a VPN up and running on a VPS or a personal computer somewhere, that IP is then tied to whatever actions you perform on the internet. So even though you've gone through all the trouble of attempting to hide your **real** IP, you've effectively made yourself another **real** IP 😑.

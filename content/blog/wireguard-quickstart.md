@@ -5,8 +5,6 @@ draft: false
 tags: ['wireguard', 'tutorial']
 ---
 
-# Wireguard Quickstart Guide
-
 I know! You are a very busy person and taking the time to read my wonderful and extensive tutorials isn't on your list of priorities :'( Fortunately, I understand and forgive you for this and this section will help you jump right into using Wireguard.
 
 ## Installing Wireguard

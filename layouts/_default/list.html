@@ -14,11 +14,21 @@
       <!-- Gets _index.md from the blog/ folder -->
       {{ .Content }}
 
-      <!-- {- range first 10 .Pages } -->
       {{- range .Pages }}
-        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-        <h4>{{ .Date }}</h4>
-        {{ .Render "p"}}
+        <div class="post">
+          <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+          
+          <span>{{ .Date.Format "January 2, 2006" }}</span>
+          {{ if (isset .Params.tags nil) (gt (len .Params.tags) 0) }}
+          <div class="tag-list">
+            {{- range .Params.tags }}
+              <a class="tag" href="/tags/{{ . }}">{{.}}</a>
+            {{- end }}
+          </div>
+          {{ end }}
+          
+          {{ .Render "p"}}
+        </div>
       {{- end }}
     </main>
 
