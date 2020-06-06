@@ -63,7 +63,8 @@ a:hover {
 pre code {
   background-color: #404959;
   color: white;
-  border: 1px solid #999;
+  border-radius: 0.5rem;
+
   display: block;
   padding: 20px;
   word-wrap: break-word;
@@ -80,6 +81,7 @@ pre code {
 }
 
 code {
+  border-radius: 0.2rem;
   background-color: #404959;
   color: white;
   padding: 4px;

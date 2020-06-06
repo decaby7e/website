@@ -17,7 +17,7 @@
       <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.ranvier.net/blog/ranvier-docker-images/</guid>
-      <description>Ranvier Docker Images I&amp;rsquo;m moving up the foodchain! After lots of time invested in making my own Docker images and making some for work as well, I have decided to take them more seriously and give them a proper home here. I have already uploaded a couple of images (one for the BIND9 DNS server and another for various versions of SpigotMC). I&amp;rsquo;m planning to upload more, including:
+      <description>I&amp;rsquo;m moving up the foodchain! After lots of time invested in making my own Docker images and making some for work as well, I have decided to take them more seriously and give them a proper home here. I have already uploaded a couple of images (one for the BIND9 DNS server and another for various versions of SpigotMC). I&amp;rsquo;m planning to upload more, including:
  OpenLDAP Kerberos Portable development environment Bastion server  Until then!</description>
     </item>
     

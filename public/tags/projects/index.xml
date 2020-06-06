@@ -17,7 +17,7 @@
       <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.ranvier.net/blog/ranvier-docker-images/</guid>
-      <description>Ranvier Docker Images I&amp;rsquo;m moving up the foodchain! After lots of time invested in making my own Docker images and making some for work as well, I have decided to take them more seriously and give them a proper home here. I have already uploaded a couple of images (one for the BIND9 DNS server and another for various versions of SpigotMC). I&amp;rsquo;m planning to upload more, including:
+      <description>I&amp;rsquo;m moving up the foodchain! After lots of time invested in making my own Docker images and making some for work as well, I have decided to take them more seriously and give them a proper home here. I have already uploaded a couple of images (one for the BIND9 DNS server and another for various versions of SpigotMC). I&amp;rsquo;m planning to upload more, including:
  OpenLDAP Kerberos Portable development environment Bastion server  Until then!</description>
     </item>
     
@@ -37,7 +37,7 @@ common.sh - A solution to repeated code in bash scripts https://git.ranvier.net/
       <pubDate>Mon, 30 Dec 2019 20:03:30 -0500</pubDate>
       
       <guid>https://www.ranvier.net/blog/wireguard-appindicator/</guid>
-      <description>Wireguard AppIndicator At the time of writing, December of 2019, there exists no simple to use graphical interface for managing Wireguard connections as far as I&amp;rsquo;m concerned. To resolve this issue, I wanted to make an AppIndicator with the following capabilities:
+      <description>At the time of writing, December of 2019, there exists no simple to use graphical interface for managing Wireguard connections as far as I&amp;rsquo;m concerned. To resolve this issue, I wanted to make an AppIndicator with the following capabilities:
  View status of Wireguard interface Enable and disable Wireguard interface View and copy the IP address of the interface  I also wanted to be able to use this on both Gnome Shell systems and systems with only support for AppIndicators, so the script is able to be used as either a standalone script running in the background or as a Gnome Shell extension.</description>
     </item>
     

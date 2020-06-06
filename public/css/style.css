@@ -1,5 +1,9 @@
 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,500&display=swap');
+
+/*          */
 /* Elements */
+/*          */
 
 * {
   box-sizing: border-box;
@@ -35,11 +39,7 @@ main {
 
 main h2 {
   margin-top: 35px;
-  margin-bottom: 10px;
-}
-
-main h4 {
-  margin-top: 0px;
+  margin-bottom: 0.5rem;
 }
 
 footer {
@@ -86,7 +86,11 @@ code {
   word-wrap: break-word;
 }
 
+
+/*         */
 /* Classes */
+/*         */
+
 
 .title {
   color: #ff5543;
@@ -126,6 +130,25 @@ a.menu-item {
   padding-bottom: 30px;
 }
 
+.post .tag-list {
+  padding-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.tag {
+  color: whitesmoke;
+  text-transform: capitalize;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+  background-color: #404959;
+}
+
+.tag:hover {
+  transition: background-color 0.5s ease;
+  background-color: #ff5543;
+  color: white;
+}
+
 /* TODO: Notice blocks (Like quote blocks in Markdown) */
 
 .notice {
@@ -144,7 +167,9 @@ a.menu-item {
 
 }
 
+/*            */
 /* Animations */
+/*            */
 
 @keyframes load_animation { 
   0% { 

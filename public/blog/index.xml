@@ -17,7 +17,7 @@
       <pubDate>Thu, 28 May 2020 23:47:53 -0400</pubDate>
       
       <guid>https://www.ranvier.net/blog/wireguard-quickstart/</guid>
-      <description>Wireguard Quickstart Guide I know! You are a very busy person and taking the time to read my wonderful and extensive tutorials isn&amp;rsquo;t on your list of priorities :&#39;( Fortunately, I understand and forgive you for this and this section will help you jump right into using Wireguard.
+      <description>I know! You are a very busy person and taking the time to read my wonderful and extensive tutorials isn&amp;rsquo;t on your list of priorities :&#39;( Fortunately, I understand and forgive you for this and this section will help you jump right into using Wireguard.
 Installing Wireguard For Ubuntu &amp;gt;= 19.10, Wireguard comes built right in! Just install the utility scripts:
 $ apt install wireguard For older versions of Ubuntu:</description>
     </item>
@@ -28,7 +28,7 @@ $ apt install wireguard For older versions of Ubuntu:</description>
       <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.ranvier.net/blog/ranvier-docker-images/</guid>
-      <description>Ranvier Docker Images I&amp;rsquo;m moving up the foodchain! After lots of time invested in making my own Docker images and making some for work as well, I have decided to take them more seriously and give them a proper home here. I have already uploaded a couple of images (one for the BIND9 DNS server and another for various versions of SpigotMC). I&amp;rsquo;m planning to upload more, including:
+      <description>I&amp;rsquo;m moving up the foodchain! After lots of time invested in making my own Docker images and making some for work as well, I have decided to take them more seriously and give them a proper home here. I have already uploaded a couple of images (one for the BIND9 DNS server and another for various versions of SpigotMC). I&amp;rsquo;m planning to upload more, including:
  OpenLDAP Kerberos Portable development environment Bastion server  Until then!</description>
     </item>
     
@@ -58,7 +58,7 @@ common.sh - A solution to repeated code in bash scripts https://git.ranvier.net/
       <pubDate>Mon, 30 Dec 2019 20:03:30 -0500</pubDate>
       
       <guid>https://www.ranvier.net/blog/wireguard-appindicator/</guid>
-      <description>Wireguard AppIndicator At the time of writing, December of 2019, there exists no simple to use graphical interface for managing Wireguard connections as far as I&amp;rsquo;m concerned. To resolve this issue, I wanted to make an AppIndicator with the following capabilities:
+      <description>At the time of writing, December of 2019, there exists no simple to use graphical interface for managing Wireguard connections as far as I&amp;rsquo;m concerned. To resolve this issue, I wanted to make an AppIndicator with the following capabilities:
  View status of Wireguard interface Enable and disable Wireguard interface View and copy the IP address of the interface  I also wanted to be able to use this on both Gnome Shell systems and systems with only support for AppIndicators, so the script is able to be used as either a standalone script running in the background or as a Gnome Shell extension.</description>
     </item>
     
@@ -68,7 +68,7 @@ common.sh - A solution to repeated code in bash scripts https://git.ranvier.net/
       <pubDate>Sun, 29 Dec 2019 21:08:30 -0500</pubDate>
       
       <guid>https://www.ranvier.net/blog/note-taking-solutions/</guid>
-      <description>Best Digital Note Solutions  Over a course of around 4 years, I have jumped from platform to platform, deperately in search of an elegant and effective digital note taking solution for my personal and professional needs. I needed to find something that would allow me to make messy notes and to-do lists for school while at the same time having a structured, organized system for various professional and personal development projects.</description>
+      <description>Over a course of around 4 years, I have jumped from platform to platform, deperately in search of an elegant and effective digital note taking solution for my personal and professional needs. I needed to find something that would allow me to make messy notes and to-do lists for school while at the same time having a structured, organized system for various professional and personal development projects. Below is a synopsis of my journey in searching for this holy grail as well as my current solution that I have found to work the best.</description>
     </item>
     
     <item>
