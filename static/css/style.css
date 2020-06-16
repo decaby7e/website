@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
 
 /*          */
 /* Elements */
@@ -32,7 +32,6 @@ header {
 }
 
 main {
-  /* margin: auto; */
   padding: 20px;
   max-width: 800px;
 
@@ -62,6 +61,10 @@ a{
 a:hover {
   transition: color 0.5s ease;
   color: #ff5543;
+}
+
+p {
+  font-size: 1.1rem;
 }
 
 pre code {
@@ -123,7 +126,6 @@ code {
 .menu {
   display: flex;
   flex-direction: column;
-  /* display: inline-block; */
   padding-bottom: 1%;
 }
 
@@ -142,9 +144,8 @@ a.menu-item:hover {
 
 .main-container {
   display: flex;
-  min-height: 100vh; /* will cover the 100% of viewport */
+  min-height: 100vh;
   overflow: hidden;
-  /* display: block; */
   position: relative;
   padding-bottom: 30px;
 }
@@ -193,8 +194,8 @@ a.menu-item:hover {
 @keyframes load_animation { 
   0% { 
       opacity: 0; 
-  } 
-  100% { 
+  }
+  50%, 100% { 
       opacity: 1; 
    } 
 } 
