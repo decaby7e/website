@@ -1,6 +1,6 @@
 {{ if .Get "src" }}
   <img
-    style="max-width: 100%; height: auto; border: 3px solid; border-color: #404959"  
+    style="max-width: 100%; height: auto; border: 3px solid; border-color: #ff5543"  
     src="{{ .Get "src" | safeURL }}"
     {{ with .Get "alt" }} alt="{{ . | plainify }}" {{ end }}
     class="{{ with .Get "position"}}{{ . }}{{ else -}} left {{- end }}"
