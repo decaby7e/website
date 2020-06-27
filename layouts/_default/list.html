@@ -23,6 +23,7 @@
           {{ if (isset .Params.tags nil) (gt (len .Params.tags) 0) }}
           <div class="tag-list">
             {{- range .Params.tags }}
+            <!-- Put these in a div to fix spacing issues -->
               <a class="tag" href="/tags/{{ . }}">{{.}}</a>
             {{- end }}
           </div>
