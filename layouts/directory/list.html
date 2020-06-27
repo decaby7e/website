@@ -12,6 +12,7 @@
     
     <main>
       <!-- Gets _index.md from the blog/ folder -->
+      <h1 class="title">{{.Title}}</h1>
       {{ .Content }}
 
       <!-- Gets all subdirectories and lists them -->
@@ -24,7 +25,6 @@
       {{ end }}
 
     </main>
-    {{ partial "footer.html" }}
   </container>
 </body>
 

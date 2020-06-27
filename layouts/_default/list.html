@@ -12,6 +12,7 @@
     
     <main>
       <!-- Gets _index.md from the blog/ folder -->
+      <h1 class="title">{{.Title}}</h1>
       {{ .Content }}
 
       {{- range .Pages }}
@@ -31,8 +32,6 @@
         </div>
       {{- end }}
     </main>
-
-    {{ partial "footer.html" }}
   </container>
 </body>
 
