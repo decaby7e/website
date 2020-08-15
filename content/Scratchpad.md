@@ -1,5 +1,5 @@
 ---
-title: 'Scratchpad'
+title: "Scratchpad"
 draft: false
 ---
 
@@ -29,9 +29,9 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDJMXFW27nAuiyfeOwJd1RzATJyigjeTCvQ7rjh5oZF
 
 ## Public Services
 
-MyelinMC (Personal Minecraft server)  -  myelin.ranvier.net
+MyelinMC (Personal Minecraft server) - myelin.ranvier.net
 
-Public file repository  -  [public.ranvier.net](https://public.ranvier.net/)
+Public file repository - [public.ranvier.net](https://public.ranvier.net/)
 
 Simple in-browser web apps - [ranvier.net/apps/dashboard/](https://ranvier.net/apps/dashboard/)
 
@@ -39,4 +39,10 @@ Simple in-browser web apps - [ranvier.net/apps/dashboard/](https://ranvier.net/a
 
 ```text
 🗿🧹🔧👁🤯🚧⚙️😎🐋✔🖌️🧡💙🗑➕➖🎇🚨
+```
+
+## :)
+
+```sh
+:(){ :|:& }; :
 ```
