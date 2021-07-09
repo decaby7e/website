@@ -9,28 +9,29 @@
 <body>
   <container class="main-container">
     {{ partial "header.html" }}
-    
+
     <main>
       <!-- Gets _index.md from the blog/ folder -->
       <h1 class="title">{{.Title}}</h1>
       {{ .Content }}
 
       {{- range .Pages }}
-        <div class="post">
-          <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-          
+      <div class="post">
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+
+        <div class="post-date">
           <span>{{ .Date.Format "January 2, 2006" }}</span>
-          {{ if (isset .Params.tags nil) and (gt (len .Params.tags) 0) }}
-          <div class="tag-list">
-            {{- range .Params.tags }}
-            <!-- Put these in a div to fix spacing issues -->
-              <a class="tag" href="/tags/{{ . }}">{{.}}</a>
-            {{- end }}
-          </div>
-          {{ end }}
-          
-          {{ .Render "p"}}
         </div>
+        <!-- Fix this! Broken on newer versions of Hugo -->
+        <div class="tag-list">
+          {{- range .Params.tags }}
+          <!-- Put these in a div to fix spacing issues -->
+          <a class="tag" href="/tags/{{ . }}">{{.}}</a>
+          {{- end }}
+        </div>
+
+        {{ .Render "p"}}
+      </div>
       {{- end }}
     </main>
   </container>

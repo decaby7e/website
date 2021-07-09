@@ -1,5 +1,11 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --red: #ff5543;
+  --pink: #fc2c9d;
+  --dark-grey: #222;
+  --light-grey: #404959;
+}
 
 /*          */
 /* Elements */
@@ -10,13 +16,14 @@
 }
 
 ::selection {
-  background-color: #ff5543;
+  background-color: var(--red);
   color: white;
 }
 
-html, body {
+html,
+body {
   font-family: 'Fira Code', monospace;
-  background-color: #222;
+  background-color: var(--dark-grey);
   color: white;
 
   height: 100%;
@@ -36,8 +43,8 @@ main {
   max-width: 800px;
 
   animation: load_animation ease 0.7s;
-  animation-iteration-count: 1; 
-  animation-fill-mode: forwards; 
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 main h2 {
@@ -45,14 +52,15 @@ main h2 {
   margin-bottom: 0.5rem;
 }
 
-a{
-  color: rgb(11, 211, 211);
+a {
+  color: var(--red);
   text-decoration: none;
 }
 
 a:hover {
   transition: color 0.5s ease;
-  color: #ff5543;
+  /* color: rgb(11, 211, 211); */
+  color: var(--pink);
 }
 
 p {
@@ -60,7 +68,7 @@ p {
 }
 
 pre code {
-  background-color: #404959;
+  background-color: var(--light-grey);
   color: white;
   border-radius: 0.5rem;
 
@@ -76,12 +84,12 @@ pre code {
   white-space: -moz-pre-wrap;
   white-space: -pre-wrap;
   white-space: -o-pre-wrap;
-  
+
 }
 
 code {
   border-radius: 0.2rem;
-  background-color: #404959;
+  background-color: var(--light-grey);
   color: white;
   padding: 4px;
   word-wrap: break-word;
@@ -94,7 +102,7 @@ code {
 
 
 .title {
-  color: #ff5543;
+  color: var(--red);
   font-size: 5rem;
   font-weight: 800;
   user-select: none;
@@ -111,7 +119,7 @@ code {
   transition: 1.0s ease;
 }
 
-.logo:hover{
+.logo:hover {
   transform: scale(1.05);
 }
 
@@ -130,7 +138,7 @@ a.menu-item {
 }
 
 a.menu-item:hover {
-  background-color: #ff5543;
+  background-color: var(--red);
   transition: background-color 0.2s ease;
 }
 
@@ -155,45 +163,49 @@ a.menu-item:hover {
   text-transform: capitalize;
   padding: 0.2rem;
   border-radius: 0.2rem;
-  background-color: #404959;
+  background-color: var(--light-grey);
 }
 
 .tag:hover {
   transition: background-color 0.5s ease;
-  background-color: #ff5543;
+  background-color: var(--pink);
   color: white;
+}
+
+.post-date {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  border-color: var(--light-grey);
+  border-radius: 0.2rem;
+  border-style: solid;
+  border-width: 0.1rem;
+  padding: 0.2rem;
 }
 
 /* TODO: Notice blocks (Like quote blocks in Markdown) */
 
-.notice {
+.notice {}
 
-}
+.notice.green {}
 
-.notice.green {
+.notice.yellow {}
 
-}
-
-.notice.yellow {
-
-}
-
-.notice.red {
-
-}
+.notice.red {}
 
 /*            */
 /* Animations */
 /*            */
 
-@keyframes load_animation { 
-  0% { 
-      opacity: 0; 
+@keyframes load_animation {
+  0% {
+    opacity: 0;
   }
-  50%, 100% { 
-      opacity: 1; 
-   } 
-} 
+
+  50%,
+  100% {
+    opacity: 1;
+  }
+}
 
 @media screen and (max-width: 660px) {
   h1 {
@@ -208,15 +220,15 @@ a.menu-item:hover {
   .main-container {
     flex-direction: column;
   }
-  
-  a.menu-item{
+
+  a.menu-item {
     font-size: 1.2rem;
     /* display: flex;
     flex-direction: column;
     padding-bottom: 1%; */
   }
 
-  .logo{
+  .logo {
     padding-top: 1rem;
     margin-bottom: 2rem;
     width: 110px;
