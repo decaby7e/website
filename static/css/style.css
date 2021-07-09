@@ -95,7 +95,6 @@ code {
   word-wrap: break-word;
 }
 
-
 /*         */
 /* Classes */
 /*         */
@@ -182,6 +181,16 @@ a.menu-item:hover {
   padding: 0.2rem;
 }
 
+main img {
+  max-width: 100%;
+  height: auto;
+  border: 3px solid;
+  border-color: #ff5543;
+  border-radius: 0.1rem;
+  padding: 0.5rem;
+}
+
+
 /* TODO: Notice blocks (Like quote blocks in Markdown) */
 
 .notice {}
@@ -222,7 +231,9 @@ a.menu-item:hover {
   }
 
   a.menu-item {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     /* display: flex;
     flex-direction: column;
     padding-bottom: 1%; */
