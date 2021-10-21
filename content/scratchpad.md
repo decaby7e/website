@@ -29,17 +29,19 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC/fQV0QFnh19aKdKKs1Zv7n+a0hZ15AcmYtwckQr2y
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDJMXFW27nAuiyfeOwJd1RzATJyigjeTCvQ7rjh5oZFD0WggjXYgno2KR3P9ENNSAAE6GzUmacviMvH0xEUndGBJKCKfIlaOnkO3H0yROs8KjiA4GmNuMBQO08tnQrXHAckpEpuU547YTVixhqHNiSB35yx8aVyfQuqZto060MptpIXq4aKV4ZtQfR0rdZrDnC5UB2WtKKCZxHq9uAI8IbwJTufcXmymErA/s7WzRm9ObeXyuyY+AGSbtGbe0bcy4499LsvOlgGL0FwHwhuOdFllGLVo+gmcEknKuPGKELdmL2DoFXJBYSQgrFDTjbY9EOiswYXFQNYpPej+N1ZF1nNq76Q107YtLkWjKGez4oioWmkMx4vxRK9lfcnqI6joKZ/g6wOOH6d68IK2ldUpVrYc4cLyM8ecPtqhadK27AWNaaz8pAgctmL5VjlRBhd26MZ6/KRNwEo0CutUDahUlkJQt9dm+/rmvQJr+lZtUOby396HtLTAHkLWTYCuxw9rqCudoNgL0J+1dFHFF1cqaLeI6Jap5g8uzcGISrgVhtg9NgIAaKwvVH9BDPu7av0LVXoAcoOejcrXhrAQumIpWKhn2CdqlSlqRHem//swT05OtGtxMJHTSw46Yula0p+r7gxpMialtdGZcii6cEeFhXUBZKu0dXDZQVYdCZ+7gkALw==
 ```
 
-## Reading List
+## Readings
 
-[Filesystem Hierarchy Standard](https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.pdf)
+- [Filesystem Hierarchy Standard](https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.pdf)
 
-## Public Services
+- [Peterson, Jordan B: 12 Rules for Life: An Antidote to Chaos](https://amzn.to/2yhvUAp)
+
+## Services
 
 MyelinMC (Personal Minecraft server) - myelin.ranvier.net
 
 Public file repository - [public.ranvier.net](https://public.ranvier.net/)
 
-Simple in-browser web apps - [ranvier.net/apps/dashboard/](https://ranvier.net/apps/dashboard/)
+Simple in-browser web apps - [apps.ranvier.net](https://apps.ranvier.net/)
 
 ## Favorite Emojis
 

@@ -36,6 +36,7 @@ header {
   align-content: middle;
   text-align: center;
   margin: 0px 4rem 0px 4rem;
+  flex-basis: 164px;
 }
 
 main {
@@ -95,10 +96,18 @@ code {
   word-wrap: break-word;
 }
 
+h1 {
+  color: var(--red);
+  font-size: 3rem;
+  font-weight: 800;
+  user-select: none;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
 /*         */
 /* Classes */
 /*         */
-
 
 .title {
   color: var(--red);
@@ -107,8 +116,6 @@ code {
   user-select: none;
   margin-top: 5px;
   margin-bottom: 20px;
-
-  transition: font-size 1.0s ease;
 }
 
 .logo {
