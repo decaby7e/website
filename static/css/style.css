@@ -2,7 +2,6 @@
 
 :root {
   --red: #ff5543;
-  --pink: #fc2c9d;
   --dark-grey: #222;
   --light-grey: #404959;
 }
@@ -59,9 +58,10 @@ a {
 }
 
 a:hover {
-  transition: color 0.5s ease;
+  transition: filter 0.3s ease;
+  filter: brightness(1.2);
   /* color: rgb(11, 211, 211); */
-  color: var(--pink);
+  /* color: var(--pink); */
 }
 
 p {
@@ -173,8 +173,8 @@ a.menu-item:hover {
 }
 
 .tag:hover {
-  transition: background-color 0.5s ease;
-  background-color: var(--pink);
+  transition: background-color 0.3s ease;
+  background-color: var(--red);
   color: white;
 }
 
