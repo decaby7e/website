@@ -111,18 +111,7 @@ iptables -t nat -A PREROUTING -p tcp -i eth0 --dport 25 -j DNAT --to-destination
 
 If you want a TL; DR, here are all of the rules that I used to get this working:
 
-`droplet`
-
-```sh
-# Enable IP forwarding
-sysctl -w net.ipv4.ip_forward=1  # Can be made persistent by editing in /etc/sysctl.conf
-# NAT for traffic outgoing on internet interface
-iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
-# Traffic incoming on port 25 should be routed to the mail server
-iptables -t nat -A PREROUTING -p tcp -i eth0 --dport 25 -j DNAT --to-destination {mail server internal IP}:25
-```
-
-`router`
+### Router Configuration
 
 ```sh
 # Add entry to routing tables
@@ -135,6 +124,17 @@ ip rule add fwmark 0x1000 table smtproute priority 32765
 
 # Mark SMTP packets for alternate routing
 iptables -A PREROUTING -t mangle --source {mail server internal IP} -p tcp --dport 25 -j MARK --set-mark 0x1000
+```
+
+### Droplet Configuration
+
+```sh
+# Enable IP forwarding
+sysctl -w net.ipv4.ip_forward=1  # Can be made persistent by editing in /etc/sysctl.conf
+# NAT for traffic outgoing on internet interface
+iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+# Traffic incoming on port 25 should be routed to the mail server
+iptables -t nat -A PREROUTING -p tcp -i eth0 --dport 25 -j DNAT --to-destination {mail server internal IP}:25
 ```
 
 This [Netfilter Diagram][3] was also very helpful in seeing how iptables and ip rules interact
