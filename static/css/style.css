@@ -2,8 +2,8 @@
 
 :root {
   --red: #ff5543;
-  --dark-grey: #222;
-  --light-grey: #404959;
+  --dark-grey: rgb(42, 42, 42);
+  --light-grey: rgb(27, 29, 34);
 }
 
 /*          */
@@ -89,10 +89,10 @@ pre code {
 }
 
 code {
-  border-radius: 0.2rem;
+  font-family: 'Fira Code Retina', monospace;
   background-color: var(--light-grey);
   color: white;
-  padding: 4px;
+  padding: 2px;
   word-wrap: break-word;
 }
 
@@ -257,4 +257,39 @@ main img {
   .footer {
     display: none;
   }
+}
+
+/*            */
+/*  Imported  */
+/*            */
+
+.highlight {
+  position: relative;
+  background-color: var(--light-grey);
+}
+
+.highlight pre {
+  padding-right: 0px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.5rem;
+}
+
+.highlight-copy-btn {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  border: 0;
+  border-radius: 4px;
+  padding: 1px;
+  font-size: 0.7em;
+  line-height: 1.8;
+  color: #fff;
+  background-color: #777;
+  min-width: 55px;
+  text-align: center;
+}
+
+.highlight-copy-btn:hover {
+  background-color: #666;
 }
