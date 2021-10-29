@@ -34,7 +34,7 @@ header {
   flex-direction: column;
   align-content: middle;
   text-align: center;
-  margin: 0px 4rem 0px 4rem;
+  margin: 0px 2rem 0px 1.5rem;
   flex-basis: 164px;
 }
 
@@ -119,9 +119,9 @@ h1 {
 }
 
 .logo {
-  padding-top: 1rem;
-  margin-bottom: 2rem;
-  width: 150px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 120px;
   transition: 1.0s ease;
 }
 
@@ -138,7 +138,7 @@ h1 {
 a.menu-item {
   color: white;
   padding: 10px;
-  font-size: 1.5rem;
+  font-size: 1.45rem;
   border-radius: 5px;
   margin-bottom: 1rem;
 }
