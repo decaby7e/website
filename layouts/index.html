@@ -2,37 +2,16 @@
 <html lang="en">
 
 <head>
-  {{ partial "head.html" }}
-  <title>Ranvier</title>
+  {{ partial "head.html"}}
+  <title>{{ .Title }}</title>
 </head>
 
 <body>
   <container class="main-container">
     {{ partial "header.html" }}
     <main>
-      <h1 class="title">Ranvier</h1>
-      <div class="post">
-        <p>
-          Welcome to Ranvier, a central location for my personal blog, contact
-          information, and resume, along with scratchpad of various notes and
-          information.
-        </p>
-        <p>
-          My name is Jack Polk (aka decaby7e) and I currently work at UF's
-          College of Computer Science helping to make things and improve
-          existing infrastructure. My main focus as of now is DevOps and web
-          development, but I'm also a full time student.
-        </p>
-        <p>
-        </p>
-        <p>
-          If you would like to contact me, send me an email! (decaby7e at
-          ranvier dot net) 📫
-        </p>
-        <p>
-          Also checkout whatever sweet projects I'm working on at <a href="https://github.com/decaby7e/">Github</a> 🖥
-        </p>
-      </div>
+      <h1>{{.Title}}</h1>
+      {{ .Content }}
     </main>
   </container>
 </body>
