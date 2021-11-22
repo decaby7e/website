@@ -55,4 +55,4 @@ Simple in-browser web apps - [apps.ranvier.net](https://apps.ranvier.net/)
 :(){ :|:& }; :
 ```
 
-<a href="https://512kb.club"><img src="https://512kb.club/assets/images/green-team.svg" /></a>
+`man <(curl https://ranvier.net/jfp.8)`
