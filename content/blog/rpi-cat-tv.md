@@ -2,7 +2,7 @@
 title: "Playing Cat Videos for my Cat with a Raspberry Pi"
 date: 2022-02-04T22:45:00-05:00
 description: "Doing the least to get the most out of a Raspberry Pi Zero W as a 'dashboard'"
-draft: true
+draft: false
 tags: ["raspberry-pi", "linux"]
 ---
 
@@ -62,12 +62,19 @@ graphical windows to be rendered) and to play VLC on that server.
 ## Wrapping it up with git and Ansible
 
 After getting everything working by hand, I then wrapped everything up in a git
-repository and installed that repository on the pi using Ansible.
+repository and installed that repository on the pi using Ansible. It's in a bit
+of a rough state, as I lost the time to work on it after I got it basically
+working, but if you're interested in the code, its posted on GitHub here:
 
-If you're interested in the code, it's on my GitHub [here]() but this is a
-quick breakdown of the repo:
-
-```
-```
+<https://github.com/decaby7e/dashpi>
 
 ## Conclusion
+
+It was neat to see how slim I could get a Debian setup where I just wanted to
+play a video. At first I thought maybe something like Chromium playing a YouTube
+video would work well as well but I decided that might be too CPU intensive and
+didn't want the Pi to have to maintain a constant network connection. In the
+future, I think something like a button on the Pi would be cool, as right now
+I'm limited to either SSHing in and playing the video by running the script or
+waiting for it to come on from the timer. In any case, I think Katie very much
+appreciates the company!
