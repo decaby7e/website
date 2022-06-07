@@ -13,6 +13,6 @@ draft: false
 
 ## Music Production
 
-Inspired partly by [Dark Eyes](https://www.youtube.com/watch?v=qrAOQv2xgqI): https://public.ranvier.net/Russia.mp3
+Inspired partly by [Dark Eyes](https://www.youtube.com/watch?v=qrAOQv2xgqI): https://public.ranvier.net/music/Russia.mp3
 
-First song I made with SunVox: https://public.ranvier.net/firstsong_sunvox.mp3
+First song I made with SunVox: https://public.ranvier.net/music/firstsong_sunvox.mp3
