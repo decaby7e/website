@@ -23,3 +23,5 @@ If you would like to contact me, send me an email! (decaby7e at ranvier dot net)
 
 Also checkout whatever sweet projects I'm working on at
 [Github](https://github.com/decaby7e/) 🖥
+
+[Subscribe to my RSS feed here!](https://ranvier.net/blog/index.xml)
