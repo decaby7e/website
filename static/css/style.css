@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
-
 :root {
   --red: #ff5543;
   --dark-grey: rgb(42, 42, 42);
@@ -22,7 +20,8 @@
 
 html,
 body {
-  font-family: 'Fira Code', monospace;
+  font-family: "Courier New";
+  font-size: 1rem;
   background-color: var(--dark-grey);
   color: white;
 

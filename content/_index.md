@@ -18,7 +18,8 @@ Some of my personal interests include:
 - Climbing
 - Biking
 - Anything outdoors!
-- Making music sometimes
+- Occasionally making music
+- Beat Saber
 
 If you would like to contact me, send me an email! (decaby7e at ranvier dot net)
 📫
@@ -41,8 +42,4 @@ If you would like to contact me, send me an email! (decaby7e at ranvier dot net)
 
 <a href="https://www.chess.com/member/decaby7e">
     <img src="/img/icons/chess.svg"  width="25px" height="25px" style="border: none; padding: 0;"/>
-</a>
-
-<a href="https://ufadventure.com/du15782">
-    <img src="/img/icons/oar.png"  width="25px" height="25px" style="border: none; padding: 0;"/>
 </a>

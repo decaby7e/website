@@ -62,3 +62,7 @@ Simple in-browser web apps - [apps.ranvier.net](https://apps.ranvier.net/)
 ```sh
 man <(curl https://ranvier.net/jfp.8)
 ```
+
+<a href="https://ufadventure.com/du15782">
+    <img src="/img/icons/oar.png"  width="25px" height="25px" style="border: none; padding: 0;"/>
+</a>
