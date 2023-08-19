@@ -3,6 +3,7 @@ title: "CTF Flask Caching"
 date: 2020-12-03T08:14:05-05:00
 tags: ["ctf", "ufsit", "python", "redis", "flask"]
 draft: false
+layout: post
 ---
 
 This was for a CTF challenge that was completed for the [UF student

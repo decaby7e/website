@@ -5,6 +5,7 @@ description: "A list of self-hosted services, development tools, and miscellaneo
 tags: []
 categories: []
 draft: false
+layout: post
 ---
 
 A common theme in this catalogue of software is that most entries here are good looking, lightweight, and easy to install (with Docker). Please send me any suggestions for additions should you have any!

@@ -4,6 +4,7 @@ date: 2021-10-27
 description: "ISP blocking port 25? Not anymore! (Only $5 a month!)"
 tags: ["digital-ocean", "networking"]
 draft: false
+layout: post
 ---
 
 I want to setup a mail server. [Easy][1]! (some restrictions apply).

@@ -3,6 +3,7 @@ title: "Overview of Linux Encryption Solutions"
 date: 2023-08-18
 description: "A chain is only as strong as its weakest link"
 tags: ["linux", "security", "research"]
+layout: post
 ---
 
 Why encrypt? The better question, in my opinion, is why **not** encrypt? With
@@ -125,6 +126,9 @@ know how it goes!
 ## Additional References
 
 <https://wiki.archlinux.org/title/Data-at-rest_encryption>
+
 <https://www.phoronix.com/scan.php?page=article&item=ext4-crypto-418&num=1>
+
 <https://unix.stackexchange.com/questions/298004/share-the-encfs-encrypted-directory-via-nfs>
+
 <https://github.com/rfjakob/gocryptfs/issues/156>

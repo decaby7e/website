@@ -4,6 +4,7 @@ date: 2019-12-25T22:41:49-05:00
 description: ""
 tags: ["self-hosted", "projects"]
 draft: false
+layout: post
 ---
 
 {{< image src="/img/camera-hacker.jpeg" alt="Camera Network Diagram" >}}

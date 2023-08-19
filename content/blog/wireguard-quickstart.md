@@ -3,6 +3,7 @@ title: "Wireguard Quickstart"
 date: 2020-05-28T23:47:53-04:00
 draft: false
 tags: ['wireguard', 'tutorial']
+layout: post
 ---
 
 I know! You are a very busy person and taking the time to read my wonderful and extensive tutorials isn't on your list of priorities :'( Fortunately, I understand and forgive you for this and this section will help you jump right into using Wireguard.

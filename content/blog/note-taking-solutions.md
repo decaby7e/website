@@ -4,6 +4,7 @@ date: 2019-12-29T21:08:30-05:00
 description: "A collection of what I have found to be some of the best note taking solutions avaliable for both personal and professional use. Some are self-hosted and others are collecting your data :P"
 tags: ["self-hosted", "software", "list", "productivity"]
 draft: false
+layout: post
 ---
 
 ---

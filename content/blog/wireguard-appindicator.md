@@ -4,7 +4,7 @@ date: 2019-12-30T20:03:30-05:00
 description: "An easy way to manage your Wireguard connection."
 tags: ["projects", "wireguard", "gnome-shell", "appindicator"]
 draft: false
-
+layout: post
 ---
 
 At the time of writing, December of 2019, there exists no simple to use graphical interface for managing Wireguard connections as far as I'm concerned. To resolve this issue, I wanted to make an AppIndicator with the following capabilities:

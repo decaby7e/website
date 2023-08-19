@@ -4,6 +4,7 @@ date: 2021-08-02
 author: Jack Polk
 tags: ["devlog", "ci", "12factor"]
 draft: false
+layout: post
 ---
 
 > This post was cross-posted from https://cliqteam.com/blog/ci-bootstrap/

@@ -3,6 +3,7 @@ title: Replacing If-Else with Dictionaries in Python
 date: 2022-01-25T23:21:00-05:00
 draft: false
 tags: ["python"]
+layout: post
 ---
 
 A common problem in programming is taking user input and

@@ -5,6 +5,7 @@ description: ""
 tags: []
 categories: []
 draft: false
+layout: post
 ---
 
 {{< image src="/img/wg-burner.png" >}}

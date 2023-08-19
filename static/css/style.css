@@ -3,7 +3,8 @@
 :root {
   --red: #ff5543;
   --dark-grey: rgb(42, 42, 42);
-  --light-grey: rgb(27, 29, 34);
+  --darker-grey: rgb(27, 29, 34);
+  --light-grey: rgb(153, 153, 153);
 }
 
 /*          */
@@ -69,7 +70,7 @@ p {
 }
 
 pre code {
-  background-color: var(--light-grey);
+  background-color: var(--darker-grey);
   color: white;
   border-radius: 0.5rem;
 
@@ -90,7 +91,7 @@ pre code {
 
 code {
   font-family: 'Fira Code Retina', monospace;
-  background-color: var(--light-grey);
+  background-color: var(--darker-grey);
   color: white;
   padding: 2px;
   word-wrap: break-word;
@@ -103,6 +104,10 @@ h1 {
   user-select: none;
   margin-top: 5px;
   margin-bottom: 20px;
+}
+
+ul {
+  padding-left: 1rem;
 }
 
 /*         */
@@ -169,7 +174,7 @@ a.menu-item:hover {
   text-transform: capitalize;
   padding: 0.2rem;
   border-radius: 0.2rem;
-  background-color: var(--light-grey);
+  background-color: var(--darker-grey);
 }
 
 .tag:hover {
@@ -223,6 +228,10 @@ main img {
   }
 }
 
+/*        */
+/* Mobile */
+/*        */
+
 @media screen and (max-width: 660px) {
   h1 {
     font-size: 60px;
@@ -265,7 +274,7 @@ main img {
 
 .highlight {
   position: relative;
-  background-color: var(--light-grey);
+  background-color: var(--darker-grey);
 }
 
 .highlight pre {

@@ -4,6 +4,7 @@ date: 2022-05-31
 description: "Why identity in the container matters outside the container"
 tags: ["docker", "linux"]
 draft: false
+layout: post
 ---
 
 If you've ever used Docker before (or any Linux-based containerization for that

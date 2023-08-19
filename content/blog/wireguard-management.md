@@ -4,6 +4,7 @@ date: 2019-12-28T23:49:20-05:00
 description: "See how I approached the problem of conveinently managing Wireguard configuration files..."
 tags: ["projects", "wireguard", "bash"]
 draft: false
+layout: post
 ---
 
 ## Introduction

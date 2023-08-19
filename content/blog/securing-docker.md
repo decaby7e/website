@@ -4,6 +4,7 @@ date: 2020-02-06T19:04:20Z
 description: "UFSIT Presentation on Docker"
 tags: ["docker", "development", "devops", "ufsit"]
 draft: false
+layout: post
 ---
 
 ## Presentation
