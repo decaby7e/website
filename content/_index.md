@@ -9,7 +9,7 @@ prospective employers (or your just weird/a bot and like that kinda stuff?).
 My name is Jack Polk (@decaby7e) and I just graduated from The University of
 Florida with a Bachelors of Science in Computer Science. My current work focuses
 are in frontend and backend web development in Typescript, Kotlin, and Python.
-My current life focus are in climbing the biggest, coolest rocks and not dying
+My current life focus is climbing the tallest, coolest rocks and not dying
 in the process.
 
 Some of my personal interests include:
