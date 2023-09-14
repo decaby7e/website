@@ -198,3 +198,6 @@ Thanks Illinois, home of the great Alexandra Chertok of OAR!
 As the driving continued, I admired the mild hills that continued on seemingly forever:
 
 ![Nice hills. Still no mountains though :(](https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230729_175126507.jpeg)
+
+> Stay tuned for the rest of this journey! It's a lot to write, so I'd like to
+> post what I have so far.
