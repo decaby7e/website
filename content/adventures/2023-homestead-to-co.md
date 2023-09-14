@@ -137,12 +137,13 @@ she fulfills this dream one day and the facade of the falls is as sweet a
 victory for her as it felt to me.
 
 Ok, enough of these darn woods! I need some concrete on my feet. The sweaty,
-beating sun on my brow. The hear island of a real city: Nashville. Never been
-before and had no idea what to expect. Weird roads, reminiscent of Seattle, with
-its one ways all over the place. It even had its own Capitol Hill! I worked at a
-coffee shop next to a sickeningly fancy and nice hotel. Afterwards, I found a
-nice burger place, Bama Burger, and chatted for a bit with the workers there.
-Then I found one of those electric bike rental things and gave it a spin:
+beating sun on my brow. The glistening heat island of a real city: Nashville.
+Never been before and had no idea what to expect. Weird roads, reminiscent of
+Seattle, with its one ways all over the place. It even had its own Capitol Hill!
+I worked at a coffee shop next to a sickeningly fancy and nice hotel.
+Afterwards, I found a nice burger place, Bama Burger, and chatted for a bit with
+the workers there. Then I found one of those electric bike rental things and
+gave it a spin:
 
 ![Cars cars cars](https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230728_211815185.jpeg)
 
