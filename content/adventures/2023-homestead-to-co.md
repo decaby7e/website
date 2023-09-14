@@ -127,23 +127,23 @@ decided to wing it and just loop back around to the parking lot at some point.
 I met a number of people along the way. One nice older lady asked that I take a
 picture of her and her grandchildren next to the river. She asked about what I
 was doing, where I was going, why I was wearing Adidas slides on a hike, and
-what exactly "Salt Life" was. I contemplated telling her it was an infamous
-biker gang from the south but instead my good side explained my South Floridian
-origin. Coming up on the bridge, I encountered a couple that was ahead of me for
-most of the hike. We talked for a bit and the lady mentioned that doing the full
-hike from the bridge to the falls was on her bucket list. I mentioned that I'd
-done it with a group and with camping equipment it was very doable. I hope that
-she fulfills this dream one day and the facade of the falls is as sweet a
-victory for her as it felt to me.
+what exactly "Salt Life" was. I contemplated telling her it was the brand of an
+infamous biker gang from the south but instead my good side explained its South
+Floridian origin. Coming up on the bridge, I encountered a couple that had been
+ahead of me for most of the hike. We talked for a bit and the lady mentioned
+that doing the full hike from the bridge to the falls was on her bucket list. I
+mentioned the OAR trip and that with camping it was very doable. I hope that she
+fulfills this dream one day and the facade of the falls is as sweet a victory
+for her as it was for me.
 
 Ok, enough of these darn woods! I need some concrete on my feet. The sweaty,
 beating sun on my brow. The glistening heat island of a real city: Nashville.
-Never been before and had no idea what to expect. Weird roads, reminiscent of
-Seattle, with its one ways all over the place. It even had its own Capitol Hill!
-I worked at a coffee shop next to a sickeningly fancy and nice hotel.
-Afterwards, I found a nice burger place, Bama Burger, and chatted for a bit with
-the workers there. Then I found one of those electric bike rental things and
-gave it a spin:
+I'd never been before and had no idea what to expect. I noticed weird roads,
+reminiscent of Seattle, with its one ways all over the place. It even had its
+own Capitol Hill! I found at a coffee shop next to a sickeningly fancy hotel and
+worked there for a few hours. Afterwards, I found a nice burger place, Bama
+Burger, and chatted for a bit with the workers there. Then I found one of those
+electric bike rental things and gave it a spin:
 
 ![Cars cars cars](https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230728_211815185.jpeg)
 
@@ -158,8 +158,8 @@ gave it a spin:
 *High tech metal engraved laser art of all the official state symbols*
 
 With my fill of Tennessee, I now planned to drive to Missouri and find a
-campsite somewhere before or after Kansas City. Which one exactly? Ah, we'll
-figure it out!
+campsite somewhere before or after Kansas City. Which one exactly? "Ah, we'll
+figure it out!"
 
 ## A Taste of Kentucky and Illinois
 
@@ -168,17 +168,17 @@ a somewhat leisurely pace, taking my time especially in Tennessee. But the smell
 of the Colorado mountains was growing stronger and my desire to get out there
 stronger with it. After leaving Nashville, I noted the mountains fading
 gracefully into hills and the Kentucky landscape establishing itself on the
-horizon. Then Illinois just as soon and night was approaching. "Uh oh, Missouri
+horizon. Then Illinois appeared just as soon and night with it. "Uh oh, Missouri
 is a bit farther than I expected." It was time to find a campsite. I noticed a
 sign on the highway pointing to one, so I followed that and did a lil pioneer
 manoeuver of not using Google Maps for once. I drove in, found an open parking
 spot in the mostly empty campsite area, and paid my dues at a honor-system pay
-booth. Finally! Someone understands people who are camping! Sleeping that night
-was horrendous, as the temps hovered in the high 80s all night. Some passing
-rain was my saving grace. The rain pattering on the roof and a couple degrees of
-cooling later, I was lulled to sleep.
+booth. Finally! Someone understands the camping crowd! Sleeping that night was
+horrendous, as the temps hovered in the high 80s all night. Some passing rain
+was my saving grace. After the rain begun to patter on the roof and the temp
+dropped a couple of degrees, I was lulled to sleep.
 
-The next day, I meandered around the campsite:
+The next morning, I meandered around the campsite:
 
 ![Coolest looking sign](https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230729_131648800.MP.jpeg)
 *One of the cooler looking trail signs I've seen in a while*
@@ -188,11 +188,11 @@ And my heart broke when I saw:
 ![No climbing?!](https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230729_131658882.MP.jpeg)
 *No climbing?! Blasphemy!!*
 
-But this lake I missed in the dark on the way in the night before was quite nice:
+But this lake I'd missed on the way in the night before was quite nice:
 
 ![Nice lake](https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230729_140156129.jpeg)
 
-Thanks Illinois, home of the great Alexandra Chertok of OAR!
+Thanks Illinois, home to the great Alexandra Chertok of OAR!
 
 ## Missouri: The Best Breakdown of My Life
 
