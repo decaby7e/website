@@ -117,7 +117,7 @@ decided to wing it and just loop back around to the parking lot at some point.
 ![First fall. A bit hazy to swim in...](https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230728_152711610.jpeg)
 
 ![The bridge](https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230728_153452553.MP.jpeg)
-*This was the first bridge we crossed. This trail goes about 10+mi or so to the big waterfall shown earlier.*
+*This was the first bridge we crossed on the OAR trip. This trail goes about 10+mi or so to the big waterfall shown earlier.*
 
 ![Cool light effect](https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230728_153521407.jpeg)
 *Looks like a picture my friend Richmond would take. Cue dramatic lens flare*
