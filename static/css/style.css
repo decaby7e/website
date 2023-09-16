@@ -170,7 +170,6 @@ a.menu-item:hover {
 
 .tag {
   color: whitesmoke;
-  text-transform: capitalize;
   padding: 0.2rem;
   border-radius: 0.2rem;
   background-color: var(--darker-grey);
@@ -184,7 +183,6 @@ a.menu-item:hover {
 
 .post-date {
   display: inline-block;
-  margin-bottom: 0.5rem;
   border-color: var(--light-grey);
   border-radius: 0.2rem;
   border-style: solid;
