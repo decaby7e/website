@@ -85,11 +85,10 @@ pre code {
   white-space: -moz-pre-wrap;
   white-space: -pre-wrap;
   white-space: -o-pre-wrap;
-
 }
 
 code {
-  font-family: 'Fira Code Retina', monospace;
+  font-family: "Fira Code Retina", monospace;
   background-color: var(--darker-grey);
   color: white;
   padding: 2px;
@@ -109,6 +108,13 @@ ul {
   padding-left: 1rem;
 }
 
+blockquote {
+  border-left: 3px solid var(--red);
+  padding-left: 1rem;
+  margin: 0;
+  margin-right: 1rem;
+}
+
 /*         */
 /* Classes */
 /*         */
@@ -126,7 +132,7 @@ ul {
   padding-top: 2rem;
   padding-bottom: 2rem;
   width: 120px;
-  transition: 1.0s ease;
+  transition: 1s ease;
 }
 
 .logo:hover {
@@ -199,16 +205,19 @@ main img {
   padding: 0.5rem;
 }
 
-
 /* TODO: Notice blocks (Like quote blocks in Markdown) */
 
-.notice {}
+.notice {
+}
 
-.notice.green {}
+.notice.green {
+}
 
-.notice.yellow {}
+.notice.yellow {
+}
 
-.notice.red {}
+.notice.red {
+}
 
 /*            */
 /* Animations */
@@ -257,7 +266,7 @@ main img {
     padding-top: 1rem;
     margin-bottom: 2rem;
     width: 110px;
-    transition: 1.0s ease;
+    transition: 1s ease;
   }
 
   .footer {
