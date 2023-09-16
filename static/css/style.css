@@ -66,6 +66,8 @@ a:hover {
 
 p {
   font-size: 1.1rem;
+  line-height: 150%;
+  text-align: justify;
 }
 
 pre code {
@@ -113,6 +115,11 @@ blockquote {
   padding-left: 1rem;
   margin: 0;
   margin-right: 1rem;
+}
+
+ul li {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
 }
 
 /*         */
@@ -240,16 +247,21 @@ main img {
 
 @media screen and (max-width: 660px) {
   h1 {
-    font-size: 60px;
+    font-size: 2.5rem;
   }
 
   header {
     margin: 0;
   }
 
+  main {
+    overflow-x: auto;
+  }
+
   .menu {
     flex-direction: row;
     overflow-x: auto;
+    width: 100%;
   }
 
   a.menu-item {
