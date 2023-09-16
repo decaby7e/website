@@ -6,9 +6,8 @@ tags: ["python"]
 layout: post
 ---
 
-A common problem in programming is taking user input and
-executing a certain piece of code based on that input.
-An example might look like this:
+A common problem in programming is taking user input and executing a certain
+piece of code based on that input. An example might look like this:
 
 ```python3
 cmd = input()
@@ -21,9 +20,9 @@ else:
     print("Unknown command specified!")
 ```
 
-Which works fine for small portions of code, but can get pretty
-cumbersome when the code in the if-else blocks becomes a certain
-size. We can fix this by moving the code into a function like so:
+Which works fine for small portions of code, but can get pretty cumbersome when
+the code in the if-else blocks becomes a certain size. We can fix this by moving
+the code into a function like so:
 
 ```python3
 def command1():
@@ -42,10 +41,10 @@ else:
     print("Unknown command specified!")
 ```
 
-Which is more verbose for this example but for larger functions
-of command1 and command2 we start to see benefits. But the problem
-with this is that we still have those pesky if-else statements and
-that need for error handling at the end. What if we could do better?
+Which is more verbose for this example but for larger functions of command1 and
+command2 we start to see benefits. But the problem with this is that we still
+have those pesky if-else statements and that need for error handling at the end.
+What if we could do better?
 
 Of course, in Python, the answer is always dictionaries:
 
@@ -65,10 +64,9 @@ cmd = input()
 {"command1": command1, "command2": command2}[cmd]()
 ```
 
-Who need switch statements when you have this?
-This is truly *Pythonic*. It has the added benefit of throwing
-a `KeyError` should the command provided not be a real command
-and in the case that we need arguments:
+Who need switch statements when you have this? This is truly *Pythonic*. It has
+the added benefit of throwing a `KeyError` should the command provided not be a
+real command and in the case that we need arguments:
 
 ```python3
 def command1(arg):

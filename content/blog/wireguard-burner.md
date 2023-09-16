@@ -2,8 +2,7 @@
 title: "Wireguard Burner VPN"
 date: 2019-11-30T04:38:51Z
 description: ""
-tags: []
-categories: []
+tags: ["project", "homelab"]
 draft: false
 layout: post
 ---
@@ -12,24 +11,42 @@ layout: post
 
 ## Introduction
 
-Have you ever gone to the conveinence store and bought a disposable phone as a kid? Maybe not, but I was always fascinated by those kinds of things and I did that!
-I thought that the idea of having a burner phone was interesting because it was another way to detach your name from whatever communication medium you were using. Nowadays anytime you communicate your name is always tied with that message. Even if you decide to spin up a VPN on a VPS provider like AWS, Digital Ocean, etc. your name is still tied to whatever payment method you use! Even when you get a VPN up and running on a VPS or a personal computer somewhere, that IP is then tied to whatever actions you perform on the internet. So even though you've gone through all the trouble of attempting to hide your **real** IP, you've effectively made yourself another **real** IP 😑.
-If you choose to go with a VPN provider like Private Internet Access or NordVPN, you can circumvent this issue but now you have to worry about *them* taking your information instead of the ISP doing it. What to do...
-I figured that the most practical approach to this situation was to look back to those simpler times where you could go to the store and buy a disposable communication medium. What if we could apply this concept to a VPN...?
+Have you ever gone to the convenience store and bought a disposable phone as a
+kid? Maybe not, but I was always fascinated by those kinds of things and I did
+that! I thought that the idea of having a burner phone was interesting because
+it was another way to detach your name from whatever communication medium you
+were using. Nowadays anytime you communicate your name is always tied with that
+message. Even if you decide to spin up a VPN on a VPS provider like AWS, Digital
+Ocean, etc. your name is still tied to whatever payment method you use! Even
+when you get a VPN up and running on a VPS or a personal computer somewhere,
+that IP is then tied to whatever actions you perform on the internet. So even
+though you've gone through all the trouble of attempting to hide your **real**
+IP, you've effectively made yourself another **real** IP 😑. If you choose to go
+with a VPN provider like Private Internet Access or NordVPN, you can circumvent
+this issue but now you have to worry about *them* taking your information
+instead of the ISP doing it. What to do... I figured that the most practical
+approach to this situation was to look back to those simpler times where you
+could go to the store and buy a disposable communication medium. What if we
+could apply this concept to a VPN...?
 
-In this project, I aim to create a "burner" VPN hosted on Digital Ocean. This involves creating script(s) that will do the following:
+In this project, I aim to create a "burner" VPN hosted on Digital Ocean. This
+involves creating script(s) that will do the following:
 
 &nbsp;
 
-1. Create a Droplet and upload a private SSH key that can be disposed of once done with it.
+1. Create a Droplet and upload a private SSH key that can be disposed of once
+   done with it.
 
-2. Install the necessary software for hosting a VPN server and other useful utilities.
+2. Install the necessary software for hosting a VPN server and other useful
+   utilities.
 
-3. Serve up the client configuration in a user friendly manner for quick and easy connection to the server.
+3. Serve up the client configuration in a user friendly manner for quick and
+   easy connection to the server.
 
 4. Start up the VPN server and begin traffic forwarding.
 
-5. Once the user decides they want to nuke their server, hit a button and make it disappear.
+5. Once the user decides they want to nuke their server, hit a button and make
+   it disappear.
 
 &nbsp;
 
@@ -37,9 +54,10 @@ Sounds simple enough (and it mostly is) so lets get into it!
 
 ___
 
-# Working with the Digital Ocean API
+## Working with the Digital Ocean API
 
-## Defining Project Secrets
+### Defining Project Secrets
+
 Before we can even begin to work with our Droplet we need to define some common authorization variables that will be used for the duration of the project. To interact with the Digital Ocean API we need to generate an API token from our user dashboard. Additionally, we need to have an SSH key to be able to connect to our Droplet once it is created. I created a JSON object to hold all of this information and a template for this object is below:
 
 ```json
@@ -53,8 +71,10 @@ Before we can even begin to work with our Droplet we need to define some common 
 
 Once we have our secrets.json file defined, we can move on to the next step: creating and interacting with our Droplet.
 
-## Creating a Droplet object
+### Creating a Droplet object
+
 In order to keep things nice and tidy, it would be nice to create an object that represents our Droplet rather than attempting to integrate this into the main script. Additionally, we can reuse this object in future projects and add onto it if we'd like to. The basic Droplet object that was created for this project is shown below:
+
 ```python
 #!/usr/bin/python3
 
@@ -157,7 +177,7 @@ class Droplet:
 
 With this, we can create and destroy a new Droplet as well as execute commands on it. The final step of this project is to create a script that uses this object to create and destroy a burner VPN.
 
-## Burner VPN Script
+### Burner VPN Script
 
 The final script of this project involves implementing the Droplet object that we just created to create and destroy our burner VPN. Wireguard was chosen for this project for several reasons, the most important of which are because of its speed and simplicity in configuration. The finished script is below:
 
@@ -281,25 +301,42 @@ Here is a brief video that shows the entire setup process:
 
 ___
 
-# Conclusion
+## Conclusion
 
-So it isnt' exactly the same as the burner phones that I played with as a kid, but I think that what I have here will do a pretty good job at being close :p
+So it isn't exactly the same as the burner phones that I played with as a kid,
+but I think that what I have here will do a pretty good job at being close :p
 
-This project was a ton of fun to work on, even if it was during time that might've been better for studying or sleep lol. There are many improvements that I can see being implemented in the future:
+This project was a ton of fun to work on, even if it was during time that
+might've been better for studying or sleep lol. There are many improvements that
+I can see being implemented in the future:
 
-- Migrate the SSH key management to its own object / script / the existing Droplet object
-- Create a new object that manages just the Digital Ocean account for things like SSH keys, authorization for API calls, etc.
+- Migrate the SSH key management to its own object / script / the existing
+  Droplet object
 
-If you have any reccomendations or questions about this project, feel free to let me know about them at my [email](mailto:jack.polk314@gmail.com).
+- Create a new object that manages just the Digital Ocean account for things
+  like SSH keys, authorization for API calls, etc.
+
+If you have any recommendations or questions about this project, feel free to
+let me know about them at my [email](mailto:jack.polk314@gmail.com).
 
 ___
 
-## Authors Notes
+## Additional Notes
 
-+ I do recognize that when you create a Digital Ocean account your name and relevant information is tied to it. However, when there's a will there's a way: one way to circumvent this is to use *cough* disposable *cough* personal information tied to a disposable gift card. I don't know if this complies with Digital Ocean's policies and I don't care enough to find out. Therefore, I do not endorse doing this and if you choose to do so it is at your complete risk.
+I do recognize that when you create a Digital Ocean account your name and
+relevant information is tied to it. However, when there's a will there's a way:
+one way to circumvent this is to use *cough* disposable *cough* personal
+information tied to a disposable gift card. I don't know if this complies with
+Digital Ocean's policies and I don't care enough to find out. Therefore, I do
+not endorse doing this and if you choose to do so it is at your complete risk.
 
 ## Sources
 
-- [Digital Ocean API Documentation](https://developers.digitalocean.com/documentation/v2/)
-- [Dragon used in post logo](https://www.pngfind.com/mpng/ihwowoT_d-d-logo-png-dungeons-dragons-transparent-png/)
-- [Digital Ocean logo](https://en.wikipedia.org/wiki/DigitalOcean#/media/File:DigitalOcean_logo.svg)
+- [Digital Ocean API
+  Documentation](https://developers.digitalocean.com/documentation/v2/)
+
+- [Dragon used in post
+  logo](https://www.pngfind.com/mpng/ihwowoT_d-d-logo-png-dungeons-dragons-transparent-png/)
+
+- [Digital Ocean
+  logo](https://en.wikipedia.org/wiki/DigitalOcean#/media/File:DigitalOcean_logo.svg)

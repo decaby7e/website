@@ -3,7 +3,7 @@ title: "Alpine Linux and docker-compose make a great combo!"
 date: 2022-02-10T01:33:00-05:00
 description: "Skip the hypervisor for a slimmer solution"
 draft: false
-tags: ["docker", "linux", "containers", "devops"]
+tags: ["linux", "devops", "containers", "docker"]
 layout: post
 ---
 

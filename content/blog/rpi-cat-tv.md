@@ -3,7 +3,7 @@ title: "Playing Cat Videos for my Cat with a Raspberry Pi"
 date: 2022-02-04T22:45:00-05:00
 description: "Doing the least to get the most out of a Raspberry Pi Zero W as a 'dashboard'"
 draft: false
-tags: ["raspberry-pi", "linux"]
+tags: ["linux", "raspberry pi"]
 layout: post
 ---
 
@@ -31,16 +31,20 @@ during the day.
 
 ## Installing Raspberry Pi OS
 
-I decided to go with the [Raspberry Pi Imager](https://github.com/raspberrypi/rpi-imager) utility because it
-has a nice feature where if you open it and hit `CTRL` + `SHIFT` + `X`, you can reveal a *secret* menu that lets
-you do stuff like change the hostname, add SSH keys, and configure WiFi. I prefer this over having to do these things manually.
+I decided to go with the [Raspberry Pi
+Imager](https://github.com/raspberrypi/rpi-imager) utility because it has a nice
+feature where if you open it and hit `CTRL` + `SHIFT` + `X`, you can reveal a
+*secret* menu that lets you do stuff like change the hostname, add SSH keys, and
+configure WiFi. I prefer this over having to do these things manually.
 
-I went with the minimal 32-bit install of Raspberry Pi OS to keep things light on the poor Pi Zero...
+I went with the minimal 32-bit install of Raspberry Pi OS to keep things light
+on the poor Pi Zero...
 
 ## Installing Required Packages
 
-Because the minimal install is, well... minimal, you don't get much by
-default with it. That's good imo! Better for things to break and having to add more than to have a lot of bloat.
+Because the minimal install is, well... minimal, you don't get much by default
+with it. That's good imo! Better for things to break and having to add more than
+to have a lot of bloat.
 
 - xorg - Display server
 - xterm - Terminal emulator

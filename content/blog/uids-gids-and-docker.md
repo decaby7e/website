@@ -2,7 +2,7 @@
 title: "{U,G}IDs and Docker"
 date: 2022-05-31
 description: "Why identity in the container matters outside the container"
-tags: ["docker", "linux"]
+tags: ["linux", "docker", "infosec"]
 draft: false
 layout: post
 ---
@@ -77,14 +77,14 @@ users running in the container).
 ## Why is this a problem?
 
 1. Certain vulnerabilites (e.g. CVE-2019-5736) are able to take advantage of the
-   lack of isolation that is left from not using seperate UID namespaces to achieve
-   privilage escalation on the host machine from compromised containers.
+   lack of isolation that is left from not using seperate UID namespaces to
+   achieve privilage escalation on the host machine from compromised containers.
 
 2. Additionally, if your filesystem is not secured properly, it can lead to
    inadvertent data leakage on the host machine from container users changing
    file ownership in unpredictable ways (a container user changes the ownership
-   of a file that allows a system user on the host machine to access files it otherwise
-   shouldn't be able to).
+   of a file that allows a system user on the host machine to access files it
+   otherwise shouldn't be able to).
 
 ## Solution: User Namespaces
 
@@ -100,8 +100,9 @@ and I believe Kubernetes also allows this.
 I learned some valuable lessons about ownership and user permissions from
 researching this topic:
 
-- File permissions are less a file-system construct and more a system
-  configuration construct.
+- File permissions should be thought of not only as a property of the
+  file-system but also a discrete and verifiable step in the entire
+  configuration of the system.
 
 - Moving files from one machine to another will almost always require a complete
   update of the ownership of the files involved in said migration.
@@ -110,5 +111,5 @@ researching this topic:
   container modifying said files and in an automated fashion.
 
 - UID/GID mappings on the host are important for portability. If a container is
-  moved from one host to another, this configuration should be transfered along with
-  container configuration and application state data.
+  moved from one host to another, this configuration should be transfered along
+  with container configuration and application state data.

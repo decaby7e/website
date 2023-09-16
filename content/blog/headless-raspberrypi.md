@@ -7,7 +7,11 @@ draft: true
 layout: post
 ---
 
-There have been too many times where I need to setup a Raspberry Pi on a local network or by plugging it into my computer directly and all the tutorials I find online are either super old or not concise in the least. Here, I hope to provide all the different ways to connect to and configure a Raspberry Pi in a headless fashion.
+There have been too many times where I need to setup a Raspberry Pi on a local
+network or by plugging it into my computer directly and all the tutorials I find
+online are either super old or not concise in the least. Here, I hope to provide
+all the different ways to connect to and configure a Raspberry Pi in a headless
+fashion.
 
 > NOTE: I will update this post when I get to it or
 > when someone cares enough to reach out and request
