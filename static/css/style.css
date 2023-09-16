@@ -1,8 +1,9 @@
 :root {
   --red: #ff5543;
+  --light-grey: rgb(153, 153, 153);
+  --grey: #404959;
   --dark-grey: rgb(42, 42, 42);
   --darker-grey: rgb(27, 29, 34);
-  --light-grey: rgb(153, 153, 153);
 }
 
 /*          */
@@ -20,9 +21,9 @@
 
 html,
 body {
-  font-family: "Fira Code", "Courier New";
+  font-family: "Courier New";
   font-size: 1rem;
-  background-color: var(--dark-grey);
+  background-color: var(--darker-grey);
   color: white;
 
   height: 100%;
@@ -71,7 +72,7 @@ p {
 }
 
 pre code {
-  background-color: var(--darker-grey);
+  background-color: var(--grey);
   color: white;
   border-radius: 0.5rem;
 
@@ -90,8 +91,7 @@ pre code {
 }
 
 code {
-  font-family: "Fira Code Retina", monospace;
-  background-color: var(--darker-grey);
+  background-color: var(--grey);
   color: white;
   padding: 2px;
   word-wrap: break-word;
@@ -101,7 +101,7 @@ h1 {
   color: var(--red);
   font-size: 3rem;
   font-weight: 800;
-  user-select: none;
+  /* user-select: none; */
   margin-top: 5px;
   margin-bottom: 20px;
 }
@@ -169,6 +169,10 @@ a.menu-item:hover {
   margin-top: auto;
 }
 
+.footer p {
+  text-align: center;
+}
+
 .main-container {
   display: flex;
   min-height: 100vh;
@@ -185,7 +189,7 @@ a.menu-item:hover {
   color: whitesmoke;
   padding: 0.2rem;
   border-radius: 0.2rem;
-  background-color: var(--darker-grey);
+  background-color: var(--grey);
 }
 
 .tag:hover {
@@ -304,7 +308,7 @@ main img {
 
 .highlight {
   position: relative;
-  background-color: var(--darker-grey);
+  background-color: var(--grey);
 }
 
 .highlight pre {
