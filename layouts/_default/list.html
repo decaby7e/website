@@ -19,17 +19,18 @@
       <div class="post">
         <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
 
-        <div class="post-date">
-          <span>{{ .Date.Format "January 2, 2006" }}</span>
+        <div class="date-and-tags">
+          <div class="post-date">
+            <span>{{ .Date.Format "January 2, 2006" }}</span>
+          </div>
+          <!-- Fix this! Broken on newer versions of Hugo -->
+          <div class="tag-list">
+            {{- range .Params.tags }}
+            <!-- Put these in a div to fix spacing issues -->
+            <a class="tag" href="/tags/{{ . }}">{{.}}</a>
+            {{- end }}
+          </div>
         </div>
-        <!-- Fix this! Broken on newer versions of Hugo -->
-        <div class="tag-list">
-          {{- range .Params.tags }}
-          <!-- Put these in a div to fix spacing issues -->
-          <a class="tag" href="/tags/{{ . }}">{{.}}</a>
-          {{- end }}
-        </div>
-
         {{ .Render "p"}}
       </div>
       {{- end }}

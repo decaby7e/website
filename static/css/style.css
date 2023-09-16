@@ -260,7 +260,8 @@ main img {
 
   .menu {
     flex-direction: row;
-    overflow-x: auto;
+    overflow: scroll; /* Always show scrollbars */
+    overflow-x: scroll;
     width: 100%;
   }
 
@@ -283,6 +284,17 @@ main img {
 
   .footer {
     display: none;
+  }
+
+  .date-and-tags {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .date-and-tags .post-date {
+    width: fit-content;
+    flex-shrink: 1;
   }
 }
 
