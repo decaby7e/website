@@ -1,6 +1,7 @@
 ---
 title: I'm Out Of My Element - Driving From South Florida to Colorado
 date: 2023-08-19
+tags: ["hiking", "climbing"]
 layout: post
 draft: false
 ---

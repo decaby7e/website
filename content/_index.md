@@ -3,21 +3,21 @@ title: Ranvier
 ---
 
 Welcome to Ranvier! This is where I blog, document what I think to be
-interesting parts of my life, and provide credentials and contact info for
-prospective employers (or your just weird/a bot and like that kinda stuff?).
+interesting parts of my life and provide credentials and contact info for
+prospective employers (or you like that kinda stuff because you're weird/a bot?).
 
-My name is Jack Polk (@decaby7e) and I just graduated from The University of
+My name is Jack Polk (@decaby7e) and I'm a graduate from The University of
 Florida with a Bachelors of Science in Computer Science. My current work focuses
-are in frontend and backend web development in Typescript, Kotlin, and Python.
-My current life focus is climbing the tallest, coolest rocks and not dying
-in the process.
+are frontend and backend web development in Typescript, Kotlin, and Python. My
+current life focus is climbing the tallest, coolest rocks and not dying in the
+process.
 
 Some of my personal interests include:
 
 - Self-hosting
 - Climbing
 - Biking
-- Anything outdoors!
+- Hiking, Camping, and Backpacking
 - Occasionally making music
 - Beat Saber
 

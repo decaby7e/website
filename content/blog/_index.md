@@ -2,4 +2,6 @@
 title: Blog
 ---
 
-Tid-bits, small projects, and tutorials I've put together in an effort to keep track of some of the things I do on a day-to-day basis
+Projects, tutorials, and research I've found interesting enough to want to write
+about it and share that with others. I love finding new blogs and reading about
+what other people are up to. A decentralized internet is a happy internet!

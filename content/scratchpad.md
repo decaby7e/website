@@ -2,7 +2,7 @@
 title: "Scratchpad"
 ---
 
-These items had nowhere else to live, so here is where they will live...
+These items had nowhere else to live, so here is where they lie
 
 ## SSH Keys
 
@@ -21,7 +21,7 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPQpqubp0bSpioFXVlSF6F7F4BVNxyVwL30lMqWCsyf2
 ## Reading List
 
 - Life at the Bottom
-- Maps of Meaning
+- Maps of Meaning (IN PROGRESS)
 - Symbols of Transformation
 - The Gulag Archipelago
 - The Time Machine
@@ -30,7 +30,7 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPQpqubp0bSpioFXVlSF6F7F4BVNxyVwL30lMqWCsyf2
 - Thus Spoke Zarathustra
 - Rework
 - The Midnight Library
-- Siddartha
+- Siddartha (DONE)
 - Тhe Brothers Karamazov
 - Critique of Pure Reason
 - The Little Prince
@@ -40,7 +40,7 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPQpqubp0bSpioFXVlSF6F7F4BVNxyVwL30lMqWCsyf2
 - Caste by Isabel Wilkerson
 - The Origins in History of Consciousness
 - The Ones Who Walk Away From Omelas
-- I AM STRANGE LOOP
+- I AM STRANGE LOOP (DONE)
 - Atlas Shrugged
 - Where The Crawdads Sing
 - The Four Agreements
@@ -64,5 +64,5 @@ man <(curl https://ranvier.net/jfp.8)
 ```
 
 <a href="https://ufadventure.com/du15782">
-    <img src="/img/icons/oar.png"  width="25px" height="25px" style="border: none; padding: 0;"/>
+    <img src="/img/icons/oar.png"  width="25px" height="25px" style="border: none; padding: 0;" title="Hey, look what you found!"/>
 </a>
