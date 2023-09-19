@@ -1,5 +1,6 @@
 ---
-title: I'm Out Of My Element - Driving From South Florida to Colorado
+title: I'm Out Of My Element! (Driving from Homestead to Colorado)
+description: "Driving From South Florida to Colorado in my newly acquired Honda Element didn't go to plan"
 date: 2023-08-19
 tags: ["hiking", "climbing"]
 layout: post
@@ -31,8 +32,8 @@ My drive begun at the bottom of the bottom of the country, in my home in
 Homestead, FL. Just to get out of the state was about a 400mi drive! But a
 scenic one, with the drab suburbs fading into green fields of grass and oak
 trees draped with Spanish moss. Around mile 360, I arrived at my second home of
-Gainesville. Here, I visited my girlfriend, saw friends, savored the beauty of
-the city, and was on my way. I had also dropped off some kittens, Dipper and
+Gainesville. Here, I saw friends, savored the beauty of the city, and just as
+fast as I came was on my way. I had also dropped off some kittens, Dipper and
 Fiona. I miss them to this day!
 
 ![Love those kitties](https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230725_215450457.MP.jpeg)
@@ -471,12 +472,204 @@ also a cable issue.
 I arrived in this quaint town around 2AM, in part due to the mechanical issues
 from earlier. It was quite dark, but I could just make out the silhouette of the
 mountains around me. Exhausted, I admired them silently; a far cry from the
-leaping and hollering I had anticipated I would be overcome by.
+leaping and hollering I anticipated I would be overcome by.
 
 The next morning...
 
 ![Browns Canyon Rafting. Oh, and mountains!](https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230803_185719801.jpeg)
 *Browns Canyon Rafting. Oh, and mountains!*
+
+And I was elated to be greeted by none other than His Excellency Henry Matthews
+Himself! Her Excellency Hildaleigh Serrano was hard at work kneading the best
+pretzel loafs this quaint town had ever seen.
+
+So, this hard working man had some time to greet me, but surely he must be
+getting back to his affairs...
+
+> Henry: "Want to get some coffee and head to a crag?"
+
+> Me: ...
+
+I peed myself from excitement at this point, cleaned myself up, and hopped in
+his car. We went to a place called "The Roastery"
+
+![The Roastery](https://lh5.googleusercontent.com/p/AF1QipO_TCyeo3KBfGez1IoMbJVxgwcxCDYEJa5Ra3DF=w408-h306-k-no)
+
+and boy did they have some good coffee. The first time we went (which was
+followed by a daily visit each day after), I got The Spanish something,
+recommendation of his majesty. The next day, I think I got the Dirty Hippie. In
+the last few days of my trip, I settled into the drip coffee + breakfast burrito
+combo, which got you a decent black coffee with a fantastic and very filling
+breakfast burrito for only $8! I felt like this one should have been called the
+Dirty Hippie and I certainly felt like one ordering it, not having showered in a
+few days at that point.
+
+Henry pointed out the bakery across the street, "Simple Eatery", and mentioned
+that that was where Hildaleigh was working. We were coming back there at noon to
+pick her up from work. But now, it was time to climb!
+
+I honestly didn't take many pictures while I was out here! I liked being off my
+phone for most of the trip but it makes recalling things chronologically
+trickier. Therefore, I'm going to split up my story into chapters of the
+different things I did here.
+
+## Life in Town
+
+When I wasn't climbing, hiking, or riding with awesome tow truck drivers
+(remember those transmission issues I mentioned earlier?), lots of my time was
+spent in the beautiful confines of Buena Vista.
+
+> **Did You Know (TM)**: the **official** pronunciation of the town by locals is
+> "Bue*nay* Vista". For once in my life, I felt like I had the upper hand on
+> pronouncing Spanish in a crowd!
+
+My place of living was the parking lot of Browns Canyon Rafting (BCR). They were
+gracious hosts, and so long as I didn't poke my head up obnoxiously too much or
+for too long, I was allowed a parking spot next to Henry's car. My Element was a
+perfect camper. I had all my belongings sorted on one side of the car and my
+inflatable sleeping pad on the other. My climbing gear and rope, cooking
+equipment, backpacking materials, food, etc. was all easily accessible by
+opening the side door of the car. The back has a cool tailgate, like a truck,
+that I used on many occasions to tie my shoes, brush my teeth, or open on the
+cooler nights to get a clear view of the start-filled night sky.
+
+A gym was adjacent to us, just 5 minutes of walking from our cars. Henry and
+Hildaleigh had a membership there and we visited a few times to check out their
+climbing gym and showers (a luxury! I will never again take for-granted a hot
+shower). We practiced some big whippers in there! Henry took the biggest one by
+far, soaring at least a good 15-20ft from the top. By the time I left this
+place, I had virtually eliminated my fear of falling, both from a stance of
+safety emotions (High Point, Chattanooga: you're mine!).
+
+Downtown had a plethora of fantastic restaurants to dine at. We basically went
+to a new place every night. One day, me and Hildaleigh checked out a park and
+found the cutest little river that fed into a small lake. Families were out with
+their kids, fishing rods laid their bait across the icy water in hopes that the
+fish would bite even just the warmer surface, and one man was throwing his baby
+up in the air as they giggled with glee. Crossing a bridge, we found a music
+festival! People were gathered on their blankets and in backs of their campers,
+each with its own fingerprint of beads and draperies.
+
+On one occasion, we all agreed to take a very speedy trip to the Arkansas River
+access that was near town and take a cold plunge. We hurried over there at a
+blazing speed of 15mph (the town speed limit), threw off our clothes in haste,
+and dove head first into the frigid rapids! Ok, a bit of hyperbole, but when we
+lowered our bodies warily, I found an odd comfort in the cold! By the time I was
+submerged, I felt comfortably numb, and exiting gave me a refreshing wave of
+warmth. This was a far cry from my other cold water experience I had tried out a
+few days prior.
+
+## A Beautiful Lake Hike
+
+I had grand plans of hiking... something! I knew there were plenty of hikes to
+do in Colorado, so I figured I would check some out on my way out of town at the
+end of my trip or hit a couple with Henry and Hildaleigh. One day, Hildaleigh
+had a morning free and Henry had to work that morning, so she recommended a lake
+hike they'd been looking at: Ptarmigan Lake. We some coffee and headed to the
+hike.
+
+![Ptarmigan Lake Hike](https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230803_211900404.jpeg)
+
+![Ptarmigan Lake Hike](https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230803_213234575.jpeg)
+
+![Hey, thats me!](https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230803_213356157.jpeg)
+
+![Hit the trail Jack](https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230803_213602783.jpeg)
+
+![Oh, what a pretty lake](https://public.ranvier.net/images/trip-2023-homestead-to-co/IMG_4874.jpg)
+
+This thing was cold!!!! I don't know if it was like your sea legs where you have
+to ease into it, but I was just not having it. Hildaleigh was a monster and
+waded out like 20ft into the deeper parts. "Its not bad" my ass... Apparently
+the river was colder to her, so maybe I just got better at handling the cold.
+Next time I'm here, I have to do this hike and swim across the entire lake just
+to prove to myself that I can!
+
+We collected some superb stream water and started the hike back. It was a
+leisurely 4 miles or so and we took our time, admiring the breathtaking nature
+surrounding us and talking about life. We got back into town, and later that day
+we all climbed together. There was rarely a me and Henry wouldn't!
+
+## The Rock Climbing Crags of The Vista
+
+One of parts of this trip I was the most excited for was the rock climbing. So
+Henry had said, there were countless high quality rock climbing crags just a 10
+minute drive from our parking lot condos. I was accustomed to driving 5+ hours
+to get to just any kind of climbing from Gainesville (10+ from Homestead), so I
+was **stoked** to get out there and try as many routes as I could.
+
+I had set a goal for myself to push myself on this trip; both mentally and
+physically. I'd done lead climbing before, but was either climbing on stuff that
+was practically a ladder or was climbing at my grade but shitting bricks at the
+same time. The idea of *potentially* falling in my mind, not to mention the
+safety aspect of it, was just utterly horrifying. I had started to do more
+leading indoors and my friend Chris Bowen gave me the biggest whipper I've ever
+taken at High Point in Chattanooga, so I was better than where I started. This
+trip, I had decided, was going to be a turning point. I no longer wanted to
+accept my fear getting in the way of some seriously cool climbs.
+
+I didn't keep track of the exact climbs I lead, but it ranged from 5.7 up to
+5.10a/b. On the 10a/b, I got past the crux only to realize that my footing was
+horrendous. A fall was ensuing and I was hopeless to stop it. I screamed
+"falling!" and let gravity take its course. Henry masterfully belayed me and
+when I realized my spine was still intact, a wave of euphoria rushed over me. It
+was my first unintended fall and a huge step in gaining confidence in leading. I
+know it is still a very risky venture, but without some level of confidence, its
+even more so.
+
+Henry was a beast on the wall. He dominated slab climbs, walking up them like
+they were ladders, and pushed himself hard on the overhung routes. He'd gotten
+noticeably better since we'd parted ways at The Knot and I'm sure he's
+continuing to improve every day. He knew the area well and took me to some of
+his favorite spots. I got to really use my rope and quickdraws for the first
+time and it felt good to be climbing outdoors and feeling confident and safe
+doing it.
+
+One day, Hildaleigh, Henry, me, and some of the rafting guides from BCR went out
+with two ropes and climbed together. I had to leave early to meet with a tow
+person that was to pick up Elley (the suspense is building... what happened to
+Elley?! Don't worry, we're getting to it =^) ) and when I came back about an
+hour later, everyone was still at it! We did some really fun 5.9s and 5.10s and
+parted ways when we got back to BCR.
+
+Hildaleigh improved quite a bit on the wall too! Henry had lead a 5.10 and when
+Hildaleigh gave it a try, she got just under the last bolt before the anchor.
+Later on, she reflected on what she could have done differently and was sure she
+could have gotten it. In the gym, she was crushing boulders left and right with
+the encouragement of some friendly gmy-goers that helped her learn new
+strategies, like how to take advantage of her height on some climbs (take that
+Henry!).
+
+Climbing in Buena Vista wasn't just icing on the cake; it was the fillet mignon
+covered in caviar truffle sauce and topped with edible gold. I hope to climb
+many more climbs with Henry, as we built a bedrock of trust and friendship on
+the wall, and continue push to harder grades and taller falls.
+
+![Some hard 10b](https://public.ranvier.net/images/trip-2023-homestead-to-co/IMG_4986.jpg)
+*A funky start to a 10b alongside an easier 10a; Henry figured this one out but I think I took the dirty cheater start*
+
+![Lowering madness](https://public.ranvier.net/images/trip-2023-homestead-to-co/were-gonna-be-late-ah.png)
+</br>*Henry lowering off a route; he had to be back for work in 15 minutes!*
+
+## Mount... *gasp* Elbert... *gasp wheeze*
+
+> *Coming Next: Colorado's tallest peak. Am I ready for this?*
+
+## Whitewater Rafting!
+
+> *Coming Next: It was take your child to work day and Henry was my daddy.*
+
+## Mayday Mayday! We're Going Up!
+
+> *Coming Next: When you make a journey somewhere in your car, you don't imagine
+> that the return route will be about 20,000ft higher than the original path.*
+
+## Home Sweet Home
+
+> *Coming Next: Missing friends and family from home, I was ready for the warm embrace of those
+> who love me.*
+
+---
 
 > *Stay tuned for the rest of this journey! It's a lot to write, but I'll be
 > updating over the course of this week.*
