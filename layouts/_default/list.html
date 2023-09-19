@@ -18,7 +18,10 @@
       {{- range .Pages }}
       <div class="post">
         <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-
+        <!-- I like this, but it really only looks good if all posts have a
+             description and they're all short
+        -->
+        <!-- <p style="margin: 0; margin-bottom: 10px;">{{.Description}}</p> -->
         <div class="date-and-tags">
           <div class="post-date">
             <span>{{ .Date.Format "January 2, 2006" }}</span>
