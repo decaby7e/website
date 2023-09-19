@@ -9,7 +9,7 @@ draft: false
 ![Diagram of a node of Ranvier](https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Gray631.png/250px-Gray631.png)
 
 My sophomore year of high school, I was taking AP Psychology on Florida Virtual
-School (FLVS). We had a class in person at my school where we could work on this
+School (FLVS). We had a class in-person at my school where we could work on this
 class during school hours. Yeah... Good luck keeping us from doing more
 interesting things.
 
