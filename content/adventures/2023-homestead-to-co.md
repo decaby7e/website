@@ -586,7 +586,7 @@ Next time I'm here, I have to do this hike and swim across the entire lake just
 to prove to myself that I can!
 
 We collected some superb stream water and started the hike back. It was a
-leisurely 4 miles or so and we took our time, admiring the breathtaking nature
+leisurely 2 miles or so and we took our time, admiring the breathtaking nature
 surrounding us and talking about life. We got back into town, and later that day
 we all climbed together. There was rarely a me and Henry wouldn't!
 
