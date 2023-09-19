@@ -490,8 +490,8 @@ getting back to his affairs...
 
 > Me: ...
 
-I peed myself from excitement at this point, cleaned myself up, and hopped in
-his car. We went to a place called "The Roastery"
+At that moment, I promptly peed myself from excitement, cleaned myself up, and
+hopped in his car. We went to a place called "The Roastery"
 
 ![The Roastery](https://lh5.googleusercontent.com/p/AF1QipO_TCyeo3KBfGez1IoMbJVxgwcxCDYEJa5Ra3DF=w408-h306-k-no)
 
