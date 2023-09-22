@@ -22,5 +22,3 @@ of SpigotMC). I'm planning to upload more, including:
 Until then!
 
 {{< image src="/img/ranvier-docker.png" >}}
-
-Credit to my beautiful girlfriend [Kaori](https://kaoriii.com/) for making this logo 💕.
