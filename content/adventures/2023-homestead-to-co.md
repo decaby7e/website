@@ -559,6 +559,18 @@ submerged, I felt comfortably numb, and exiting gave me a refreshing wave of
 warmth. This was a far cry from my other cold water experience I had tried out a
 few days prior.
 
+![Cool looking bench](https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230808_154851593.MP.jpeg)
+*This bench **rocks**!*
+
+![Mushroom galore](https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230809_010818328.jpeg)
+*A whole plate of mushrooms as an entree. I felt a pleasant sickness after this*
+
+![Element!](https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230809_210808521.jpeg)
+*Another Honda Element!*
+
+![Cave road](https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230810_030537307.MP.jpeg)
+*This road going to the crag was so cool; they just blew a tunnel through a series of giant boulders on the side of a valley*
+
 ## A Beautiful Lake Hike
 
 I had grand plans of hiking... something! I knew there were plenty of hikes to
@@ -653,23 +665,188 @@ the wall, and continue push to harder grades and taller falls.
 
 ## Mount... *gasp* Elbert... *gasp wheeze*
 
-> *Coming Next: Colorado's tallest peak. Am I ready for this?*
+Finally, a day came where we were all free to do a hike together. What better
+one than the tallest one, Mount Elbert? Henry had his reservations, as it was
+going to be packed with people due to its popularity, but we all agreed it was a
+solid choice and would be worth it despite a potential crowd.
+
+We headed out early in the morning, leaving BCR around 5AM. The drive there was
+serene, as we saw the gentle giant Elbert still asleep on the horizon. Arriving
+at the parking lot there were already a decent number of people. We organized
+ourselves, got our water, and started the approach.
+
+![Element number 2](https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230807_114527353.jpeg)
+*Yet another Element! Happy to see some fellow brethren out here*
+
+![Caves rock license plate](https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230807_114541510.MP.jpeg)
+*This was a super cool license plate, along with the cool bat speleological sticker*
+
+The approach was very calm, gaining only about 1000ft in elevation over a few
+miles. I could already feel myself becoming winded, as the elevation was already
+\>10,000ft at just the start of the hike. After passing the tree line, the views
+did not disappoint:
+
+![Above the tree line](https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230807_131654173.jpeg)
+
+![Stunning](https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230807_134801873.jpeg)
+
+![Cant get enough of this](https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230807_134807873.jpeg)
+
+And just as soon, the summit was in view:
+
+![First view of the false summit](https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230807_135938083.jpeg)
+
+Gotcha! This was the first of two false summits. But it would be quite the trek
+by itself. It was at this point I was becoming nervous about the effects of
+altitude sickness on myself. I have a history of lung issues and was nervous
+this might be a bit much for my body. I almost backed out... But realizing what
+a disappointment it would be to come so close and just turn around, I decided to
+take a calculated risk and continue anyways. I wasn't feeling terrible at this
+point and figured I would need to feel a lot worse to warrant aborting.
+
+I told Henry and Hildaleigh to go ahead of me while I rested a bit more. After
+an extended break and thorough admiration of the panoramic paradise of mountains
+around me, I continued up the path. I talked to many people along the way, with
+one group being from someplace in the Southeast. They were all practicing
+physicians and had come to Colorado to try their hands at hiking some of its
+highest peaks. As I continued, I noticed a diverse range of people hiking this
+peak; one man was with his 10 year old son and another group looked like they'd
+decided to come up on a whim, wearing gym shorts and T-shirts. The higher up we
+went, the colder and windier it was getting, so I felt bad for them!
+
+![Closer and closer](https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230807_144439056.jpeg)
+
+![Almost there](https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230807_155511991.jpeg)
+*Getting closer to the first false peak; I still didn't know at this point!*
+
+After a total of about 3 miles of hiking and an elevation gain of 4000ft or so,
+we'd finally made it!
+
+![Victory!](https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230807_170509882.jpeg)
+*Victory!*
+
+![Henbobo and Hil](https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230807_162526791.jpeg)
+*You guys **rock**... ok, I'll try to stop the rock jokes*
+
+It was freaking **cold** up here. My thermostat was reading high 40s to low 50s
+and the wind was blowing nonstop. We found a nice rock shelter that seemingly
+was constructed to help weary hikers like myself hide from the wind. After
+calling our parents to share the achievement (the reception up here was
+fantastic!), eating some snacks, and taking in as much of the view as we could,
+we begun our descent.
+
+![Yes!](https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230807_170503395.jpeg)
+
+We descended at a much faster pace than the way up, taking long breaks to rest
+and appreciate our surroundings. After we got back to the parking lot, we headed
+into the closest town, destroyed entire pizzas, and made our way back to Buena
+Vista.
+
+![Elbert in the distance](https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230807_204631655.MP.jpeg)
+*Elbert was now awake and fully stretched out on the horizon as we parted ways*
 
 ## Whitewater Rafting!
 
-> *Coming Next: It was take your child to work day and Henry was my daddy.*
+One thing we had yet to do since I'd arrived was what Henry had mastered in many
+months out here: whitewater rafting. I'd dabbled in an easy one in Washington
+last summer, but nothing like what Henry was doing out here. One day, he made
+room in his schedule to take a few of us out on the river to try out an easier
+class 3. The plan was to shuttle a car to the take out point of the river and
+then take everyone in my car to the starting point with the raft strapped on the
+top of Elley. We made it to the take out point and while driving uphill to
+leave, disaster struck.
+
+Elley was dead.
+
+To sum it up, I lost all power going uphill. I get out of the car to see a red
+puddle of fluid accumulating under the car and a horrible smell of something
+burning. I quickly learned that this was transmission fluid and this car was
+going nowhere but downhill. We had some kind bystanders help us push the car
+around and we then neutraled downhill back to the parking lot. This was a
+disaster.
+
+I called AAA, we all drove back to BCR, and later at night I was driven back to
+meet with a tow truck driver. On the drive back to the BCR, I talked with him
+about where he was from and how he ended up in Colorado. It turns out, he'd been
+a very wealthy investment banker in Atlanta in his past life! He detailed his
+amazing adventure and his dreams of motorcycling across all of Russia with his
+friends to me. When we got back, I said farewell and wished him luck on his
+future journeys.
+
+The next day, I took a look inside the car and detected the source of the
+problem: a cooling hose had come loose from the transmission and ejected all of
+the fluid from it. The burning smell was coming from fluid that had found its
+way onto the engine and was burning. Possibly also coming from inside the
+transmission. The most... annoying, lets call it, detail I noticed was the
+positioning of a clamp on the hose. It was about 3 inches away from the end of
+the hose, very far away from where it was supposed to be. This was certainly the
+cause of the slippage and the result of human error. I'd been so worried about
+Elley this entire trip, thinking the transmission would fall out of the car or
+the engine would start knocking or smoke would start billowing from every crack
+and crevice. But her final blow was the result of human incompetency.
+
+Oh poor Elley...
 
 ## Mayday Mayday! We're Going Up!
 
-> *Coming Next: When you make a journey somewhere in your car, you don't imagine
-> that the return route will be about 20,000ft higher than the original path.*
+Due to the terms of the warranty we had on the car, towing it back home was the
+only option I had. This piled more salt to the wound, but needing to be back
+before the end of the week anyways, it was my only option.
+
+![Goodbye Elley](https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230810_200354447.jpeg)
+*Goodbye Elley! Get home safe.*
+
+I was fortunate enough to find a fairly cheap flight from Colorado Springs
+directly to Gainesville. Henry and Hildaleigh were leaving Buena Vista around
+this time too, so the timing was just right for them to drop me off at the
+airport as they started their long drive home. The drive to Colorado Springs was
+perhaps the most scenic one yet. I'd done the same one on the way to Buena Vista
+but I was significantly more stressed and it was way darker out. Me and Henry
+speculated on the climbability of some awesome looking rock formations that
+appeared at the bend of every corner. Vast plains carpeted the landscape as we
+left the collegiate peaks and as we got closer and closer to the Springs, Pikes
+Peak dominated the horizon:
+
+![I think thats Pikes??](https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230811_173426369.jpeg)
+
+Arriving at the airport, we made our final farewells. I had an absolutely
+fantastic time with Henry and Hildaleigh in Colorado and feel like I got to know
+them so much better than I ever had. Climbing, hiking, eating, and facing
+various trials and tribulations together, it was the highlight of my entire
+summer and a moment of my life I will never forget. I hope to continue climbing
+with Henry for as long as I can and hope that Hildaleigh may be there with us to
+share in the glory and triumph.
+
+![Goodbye Colorado!](https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230811_211014091.jpeg)
+*Goodbye Colorado! I'm going to miss you dearly.*
+
+Arriving in Dallas for my connecting flight, I chuckled at the lack of IT
+prowess in display:
+
+![Lol](https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230811_231303331.jpeg)
+
+And after a short 6 hours, I was back at home in Gainesville.
 
 ## Home Sweet Home
 
-> *Coming Next: Missing friends and family from home, I was ready for the warm embrace of those
-> who love me.*
+The day after I arrived was my Pop Pop's 90th birthday. I was so happy to see
+him again after so long apart along with the rest of my family. We had a
+fantastic breakfast and sitting at the table, I felt a deeper appreciation for
+what I was so gifted to have. Though my journey was long and exciting, this was
+what it was all about. I learned through this trip that I would trade a lifetime
+of adventure for my family and friends if it came down to it.
+
+![My pup Lucy](https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230815_180136716.jpeg)
+*Lucy-Lu!! And I love herrrrrr*
+
+![Big ol' fat cat](https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230817_214328919.MP.jpeg)
+*I love you too Olivia, ya goofy goof*
 
 ---
 
-> *Stay tuned for the rest of this journey! It's a lot to write, but I'll be
-> updating over the course of this week.*
+> Special thanks to Alex and Brian for giving me a home away from home, my Mom
+> and Dad for raising me to be resilient, Ethan and Peyton for always supporting
+> my crazy ideas, Henry and Hildaleigh for being my companions Buena Vista,
+> Chris Bowen for inspiring confidence in me to follow through with this
+> journey, and Pop Pop and Grandma for teaching me the importance of family and
+> faith
