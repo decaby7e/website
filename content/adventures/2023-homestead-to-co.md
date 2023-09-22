@@ -846,7 +846,7 @@ of adventure for my family and friends if it came down to it.
 
 > Special thanks to Alex and Brian for giving me a home away from home, my Mom
 > and Dad for raising me to be resilient, Ethan and Peyton for always supporting
-> my crazy ideas, Henry and Hildaleigh for being my companions Buena Vista,
+> my crazy ideas, Henry and Hildaleigh for being my companions in Buena Vista,
 > Chris Bowen for inspiring confidence in me to follow through with this
 > journey, and Pop Pop and Grandma for teaching me the importance of family and
 > faith
