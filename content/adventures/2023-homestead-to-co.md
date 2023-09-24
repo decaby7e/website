@@ -520,7 +520,7 @@ When I wasn't climbing, hiking, or riding with awesome tow truck drivers
 spent in the beautiful confines of Buena Vista.
 
 > **Did You Know (TM)**: the **official** pronunciation of the town by locals is
-> "Bue*nay* Vista". For once in my life, I felt like I had the upper hand on
+> **B-you-nuh** Vista". For once in my life, I felt like I had the upper hand on
 > pronouncing Spanish in a crowd!
 
 My place of living was the parking lot of Browns Canyon Rafting (BCR). They were
@@ -648,7 +648,7 @@ Hildaleigh improved quite a bit on the wall too! Henry had lead a 5.10 and when
 Hildaleigh gave it a try, she got just under the last bolt before the anchor.
 Later on, she reflected on what she could have done differently and was sure she
 could have gotten it. In the gym, she was crushing boulders left and right with
-the encouragement of some friendly gmy-goers that helped her learn new
+the encouragement of some friendly gym-goers that helped her learn new
 strategies, like how to take advantage of her height on some climbs (take that
 Henry!).
 
