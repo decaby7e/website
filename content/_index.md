@@ -15,14 +15,12 @@ process.
 Some of my personal interests include:
 
 - Self-hosting
-- Climbing
+- Rock climbing
 - Biking
-- Hiking, Camping, and Backpacking
-- Occasionally making music
-- Beat Saber
+- Backpacking
+- Making little songs
 
-If you would like to contact me, send me an email! (decaby7e at ranvier dot net)
-📫
+If you would like to contact me, send me an email! (decaby7e at this domain) 📫
 
 <a href="https://github.com/decaby7e/">
     <img src="/img/icons/github.svg"  width="25px" height="25px" style="border: none; padding: 0;"/>
@@ -36,10 +34,10 @@ If you would like to contact me, send me an email! (decaby7e at ranvier dot net)
     <img src="/img/icons/keybase.png"  width="25px" height="25px" style="border: none; padding: 0;"/>
 </a>
 
-<a href="https://ranvier.net/blog/index.xml">
-    <img src="/img/icons/rss.svg"  width="25px" height="25px" style="border: none; padding: 0;"/>
-</a>
-
 <a href="https://www.chess.com/member/decaby7e">
     <img src="/img/icons/chess.svg"  width="25px" height="25px" style="border: none; padding: 0;"/>
+</a>
+
+<a href="https://ranvier.net/blog/index.xml">
+    <img src="/img/icons/rss.svg"  width="25px" height="25px" style="border: none; padding: 0;"/>
 </a>
