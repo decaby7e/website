@@ -38,6 +38,10 @@ If you would like to contact me, send me an email! (decaby7e at this domain) ðŸ“
     <img src="/img/icons/chess.svg"  width="25px" height="25px" style="border: none; padding: 0;"/>
 </a>
 
+<a href="https://www.strava.com/athletes/105228821">
+    <img src="/img/icons/strava.png" width="25px" height="25px" style="border: none; padding: 0;">
+</a>
+
 <a href="https://ranvier.net/blog/index.xml">
     <img src="/img/icons/rss.svg"  width="25px" height="25px" style="border: none; padding: 0;"/>
 </a>
