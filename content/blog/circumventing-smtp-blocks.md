@@ -152,3 +152,14 @@ tables interact with each other.
 [1]: https://mailcow.email/
 [2]: https://unix.stackexchange.com/questions/21093/output-traffic-on-different-interfaces-based-on-destination-port
 [3]: https://upload.wikimedia.org/wikipedia/commons/3/37/Netfilter-packet-flow.svg
+
+## 2024 Update - OpenWRT Deprecation of `iptables`
+
+Updated in OpenWRT deprecated the use of `iptables`! This was unfortunate, but the following nf_tables commands work as a replacement:
+
+```sh
+nft delete table raw 2>/dev/null
+nft add table raw
+nft add chain raw prerouting {type filter hook prerouting priority -300\;}
+nft add rule raw prerouting ip saddr 192.168.1.10 tcp dport 25 meta mark set 0x1000
+```
