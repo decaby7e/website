@@ -149,7 +149,7 @@ Tommy's was handmade by Czar Alexandra!*
 
 ![Campfire treats](https://public.ranvier.net/images/frosty-friends-falling-at-foster-falls/0027.jpeg)
 
-*Hildaleigh's pretzel twists were a hit, especially heated up over the fire!*
+*~~Hildaleigh~~Alexandra's pretzel twists were a hit, especially heated up over the fire!*
 
 ![Soup time](https://public.ranvier.net/images/frosty-friends-falling-at-foster-falls/0028.jpeg)
 
