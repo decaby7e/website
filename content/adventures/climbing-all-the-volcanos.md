@@ -54,7 +54,7 @@ need to come back another day to do this :^)
 
 2/5 done.
 
-My friend Anton finally moved back from Seattle! We got drinks with friends and
+My friend Anton finally moved back to Seattle! We got drinks with friends and
 I mentioned to him that me and Teagan were going to attempt to hike Mount Adams.
 The south climb is just a steep snow hike, I said. Surprisingly enough, he was
 down! Even never having backpacked before, he dove head first into it. Teagan
