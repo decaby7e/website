@@ -22,7 +22,7 @@ community feeling. Shortly before we actually went out on this trip, my same
 friend Justin told me about a summit attempt Scott (a fellow BMC student) was
 planning for Mount Rainier. I said yes. Boy was I in for a surprise on Baker.
 
-The biggest mistake I made was not drinking enough water. I'd eated fairly well
+The biggest mistake I made was not drinking enough water. I'd eaten fairly well
 before and during the hike. But on the push up, I hadn't had more than 500mL,
 partly because of altitude sickness making me not feel like doing that but also
 in large part due to my general aversion to drinking water. I'm trying to work
@@ -72,7 +72,7 @@ Thus:
 It was actually only at this point that I developed the desire to bag the rest
 of the volcanos. I realized that the only ones left were:
 
-- St-Helens - Similar to Adams, this one is just a snow hike. Tough but very
+- Mount St. Helens - Similar to Adams, this one is just a snow hike. Tough but very
   doable and non-technical! Just need to get permits and NOT fall to my death by
   stepping out onto the snow cornices at the summit ([rest in peace to the man
   that passed due to
