@@ -7,6 +7,7 @@ tags: ["climbing", "oar"]
 layout: post
 aliases:
  - /adventures/frosty-friends-falling-at-foster-falls
+thumbnail: https://public.ranvier.net/images/frosty-friends-falling-at-foster-falls/0064.jpeg
 ---
 
 ![The Falls of Foster Falls!](https://public.ranvier.net/images/frosty-friends-falling-at-foster-falls/0006.jpeg)

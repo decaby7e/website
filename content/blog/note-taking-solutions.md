@@ -6,6 +6,7 @@ categories: ["tech"]
 tags: ["homelab", "list"]
 draft: false
 layout: post
+thumbnail: https://public.ranvier.net/memes/a21.jpg
 ---
 
 Over a course of around 4 years, I have jumped from platform to platform,

@@ -1,11 +1,12 @@
 ---
 title: "Ranvier Docker Images"
 date: 2020-05-24
-description: ""
+description: "There aren't enough well-made and maintained Docker images out there. Let's fix that!"
 categories: ["tech"]
-tags: ["docker", "project"]
+tags: ["containers", "project"]
 draft: false
 layout: post
+thumbnail: /img/ranvier-docker.png
 ---
 
 I'm moving up the foodchain! After lots of time invested in making my own Docker

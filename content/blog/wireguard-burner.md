@@ -1,11 +1,11 @@
 ---
 title: "Wireguard Burner VPN"
 date: 2019-11-30T04:38:51Z
-description: ""
+description: "You're not a fed right? Ok, come right in.."
 categories: ["tech"]
 tags: ["project", "homelab"]
-draft: false
 layout: post
+thumbnail: /img/wg-burner.png
 ---
 
 {{< image src="/img/wg-burner.png" >}}

@@ -1,10 +1,11 @@
 ---
 title: "CTF Flask Caching"
 date: 2020-12-03T08:14:05-05:00
+description: "The joy of nailing this CTF with Matt was unparalleled"
 categories: ["tech"]
-tags: ["infosec", "ctf", "python"]
-draft: false
+tags: ["security", "ctf", "python"]
 layout: post
+thumbnail: /img/ufsit-logo.webp
 ---
 
 This was for a CTF challenge that was completed for the [UF student

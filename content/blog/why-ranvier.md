@@ -1,13 +1,14 @@
 ---
 title: Why "Ranvier"?
 date: 2023-09-17
+description: "No not Rainier. No, not Raneer... Goddamnit"
 categories: ["tech"]
 tags: ["meta"]
 layout: post
-draft: false
+thumbnail: /img/nodes-of-ranvier.png
 ---
 
-![Diagram of a node of Ranvier](https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Gray631.png/250px-Gray631.png)
+{{< image src="/img/nodes-of-ranvier.png" >}}
 
 My sophomore year of high school, I was taking AP Psychology on Florida Virtual
 School (FLVS). We had a class in-person at my school where we could work on this

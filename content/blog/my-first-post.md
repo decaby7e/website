@@ -6,6 +6,7 @@ categories: ["tech"]
 tags: ["meta"]
 description: "Every blog should have a first post, so here's mine!"
 layout: post
+thumbnail: /img/me.png
 ---
 
 Every blog should have a first post, so here's mine! This blog was created in

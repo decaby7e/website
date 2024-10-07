@@ -1,10 +1,11 @@
 ---
 title: "Why Is My Phone Dead In The Mountains?"
 date: 2023-09-16
+description: "Man my sleeping bag was warm but now my battery is dead... What gives?!"
 categories: ["tech"]
 tags: ["debugging", "android"]
-draft: false
 layout: post
+thumbnail: /img/cocaine-bear.jpg
 ---
 
 ## A Lack of Battery Juice

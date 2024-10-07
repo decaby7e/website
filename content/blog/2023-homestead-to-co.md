@@ -7,6 +7,7 @@ tags: ["hiking", "climbing"]
 layout: post
 aliases:
  - /adventures/2023-homestead-to-co
+thumbnail: https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230803_020538479.jpeg
 ---
 
 What a journey this was...

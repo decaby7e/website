@@ -3,14 +3,25 @@
     <img class="logo" src="/img/logo.svg" type="image/svg" alt="*** ImAgE dIsaPpEaReD ***"></img>
   </a>
   <div class="menu">
-    <a class="menu-item" href="/">Home</a>
-    <a class="menu-item" href="/categories/tech/">Tech</a>
-    <a class="menu-item" href="/categories/adventure/">Adventures</a>
-    <a class="menu-item" href="/creations/">Creations</a>
-    <a class="menu-item" href="/scratchpad/">Scratchpad</a>
-  </div>
-  <div class="footer">
-    <p>🔧 with 🧡💙 by decaby7e</p>
-    <a href="https://512kb.club"><img src="https://512kb.club/assets/images/green-team.svg" height="20" /></a>
+    {{- $page := page }}
+    {{/*  DEBUG: {{ printf "%#v" $page}}  */}}
+    {{ with site.Menus.main }}
+    {{- range . }}
+      {{/* 
+        1. Hugo's menu helper
+        2. if page has a category AND the menu item we're on is in it, mark it as active
+          - We're using the menu item's "identifier" field to hack this in : )
+        3. Hugo freaks out for single pages?? Idk and idc...
+          - https://discourse.gohugo.io/t/ismenucurrent-returns-false-for-single-pages/13970/10 
+      */}}
+      {{ $isActive := false }}
+      {{ if or (or ($page.IsMenuCurrent .Menu .) (in $page.Params.categories .Identifier) ((eq $page.RelPermalink .PageRef))) }}
+        {{ $isActive = true }}
+      {{ end }}
+      <a class="menu-item {{ if $isActive }}menu-item-selected{{ end }}" href="{{ .PageRef }}">
+      {{ .Name }}
+      </a>
+    {{- end }}
+    {{ end }}
   </div>
 </header>

@@ -4,8 +4,9 @@ date: 2022-02-10T01:33:00-05:00
 description: "Skip the hypervisor for a slimmer solution"
 draft: false
 categories: ["tech"]
-tags: ["linux", "devops", "containers", "docker"]
+tags: ["linux", "homelab", "containers"]
 layout: post
+thumbnail: /img/alpine-love.png
 ---
 
 I have toyed with Docker for about 4 years now and what I can say is that it has

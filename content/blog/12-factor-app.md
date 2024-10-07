@@ -1,11 +1,12 @@
 ---
 title: Bootstrapping Our 12 Factor App with GitHub Actions, Docker Compose, and Digital Ocean
 date: 2021-08-02
+description: "Who knew devops could be so fun? Them green checkmarks are so satisfying..."
 author: Jack Polk
 categories: ["tech"]
-tags: ["devlog", "devops"]
-draft: false
+tags: ["project", "devops"]
 layout: post
+thumbnail: /img/12-factor-symbol.png
 ---
 
 > This post was cross-posted from <https://cliqteam.com/blog/ci-bootstrap/>

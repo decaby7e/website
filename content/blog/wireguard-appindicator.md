@@ -6,6 +6,7 @@ categories: ["tech"]
 tags: ["project"]
 draft: false
 layout: post
+thumbnail: /img/ubuntu-meme.jpg
 ---
 
 At the time of writing, December of 2019, there exists no simple to use

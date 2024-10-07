@@ -1,10 +1,11 @@
 ---
 title: Replacing If-Else with Dictionaries in Python
 date: 2022-01-25T23:21:00-05:00
-draft: false
+description: "I don't know why I did this"
 categories: ["tech"]
-tags: ["python"]
+tags: ["python", "random"]
 layout: post
+thumbnail: /img/python-dict-madness.jpg
 ---
 
 A common problem in programming is taking user input and executing a certain

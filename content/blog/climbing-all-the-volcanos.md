@@ -1,12 +1,13 @@
 ---
 title: ALL The Volcanos
-description: "The Slumbering Beasts of the Cascades"
+description: "Slaying the Slumbering Dragons of the Cascades"
 date: 2024-09-24
 categories: ["adventure"]
 tags: ["mountaineering"]
 layout: post
 aliases:
  - /adventures/climbing-all-the-volcanos
+thumbnail: https://public.ranvier.net/images/all-the-volcanos/rainier.jpg
 ---
 
 When I moved out here, my friend Justin Chen convinced me to take a

@@ -6,6 +6,7 @@ categories: ["tech"]
 tags: ["networking", "homelab"]
 draft: false
 layout: post
+thumbnail: /img/cow_mailcow.svg
 ---
 
 I want to setup a mail server. [Easy][1]! (some restrictions apply). However, my

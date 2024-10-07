@@ -3,9 +3,10 @@ title: "{U,G}IDs and Docker"
 date: 2022-05-31
 description: "Why identity in the container matters outside the container"
 categories: ["tech"]
-tags: ["linux", "docker", "infosec"]
+tags: ["linux", "containers", "security"]
 draft: false
 layout: post
+thumbnail: /img/cute-penguins.jpg
 ---
 
 If you've ever used Docker before (or any Linux-based containerization for that

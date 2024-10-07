@@ -1,10 +1,11 @@
 ---
 title: "Wireguard Quickstart"
 date: 2020-05-28T23:47:53-04:00
-draft: false
+description: "This one is for you Dayron!"
 categories: ["tech"]
 tags: ["wireguard", "tutorial"]
 layout: post
+thumbnail: /img/wireguard-logo.png
 ---
 
 I know! You are a very busy person and taking the time to read my wonderful and

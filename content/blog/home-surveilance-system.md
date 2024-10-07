@@ -1,11 +1,11 @@
 ---
 title: "Home Surveillance System"
 date: 2019-12-25T22:41:49-05:00
-description: ""
+description: "Watching out for dirty thieves on the cheap!"
 categories: ["tech"]
 tags: ["homelab", "project"]
-draft: false
 layout: post
+thumbnail: /img/camera-hacker.jpeg
 ---
 
 {{< image src="/img/camera-hacker.jpeg" alt="Camera Network Diagram" >}}

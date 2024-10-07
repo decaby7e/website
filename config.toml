@@ -8,3 +8,27 @@ title = "Ranvier"
 
 [markup.goldmark.renderer]
   unsafe = true # Allow HTML in md files
+
+[menu]
+[[menu.main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 1
+[[menu.main]]
+  identifier = "tech"
+  name = "Tech"
+  pageRef = "/categories/tech/"
+  weight = 2
+[[menu.main]]
+  identifier = "adventure"
+  name = "Adventures"
+  pageRef = "/categories/adventure/"
+  weight = 3
+[[menu.main]]
+  name = "Creations"
+  pageRef = "/creations/"
+  weight = 4
+[[menu.main]]
+  name = "Scratchpad"
+  pageRef = "/scratchpad/"
+  weight = 5

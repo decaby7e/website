@@ -19,25 +19,31 @@
       {{ .Content }}
 
       {{- range .Pages }}
-      <div class="post">
-        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-        <!-- I like this, but it really only looks good if all posts have a
-             description and they're all short
-        -->
-        <!-- <p style="margin: 0; margin-bottom: 10px;">{{.Description}}</p> -->
-        <div class="date-and-tags">
-          <div class="post-date">
-            <span>{{ .Date.Format "January 2, 2006" }}</span>
-          </div>
-          <!-- Fix this! Broken on newer versions of Hugo -->
-          <div class="tag-list">
-            {{- range .Params.tags }}
-            <!-- Put these in a div to fix spacing issues -->
-            <a class="tag" href="/tags/{{ . }}">{{.}}</a>
-            {{- end }}
-          </div>
+      {{/*  FIXME: alignment of picture is messed up  */}}
+      <div style="display: flex; align-items: center; justify-content: start;">
+        <div style="margin-right: 20px">
+          <img width=128 height=128 src="{{ .Params.thumbnail }}" onerror="this.src='/img/image-not-found.jpg'"/>
         </div>
-        {{ .Render "p"}}
+        <div class="post">
+          <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+          <div class="date-and-tags">
+            <div class="post-date">
+              <span>{{ .Date.Format "January 2, 2006" }}</span>
+            </div>
+            <!-- Fix this! Broken on newer versions of Hugo -->
+            <div class="tag-list">
+              {{- range .Params.tags }}
+              <!-- Put these in a div to fix spacing issues -->
+              <a class="tag" href="/tags/{{ . }}">{{.}}</a>
+              {{- end }}
+            </div>
+          </div>
+          <!-- I like this, but it really only looks good if all posts have a
+              description and they're all short
+          -->
+          <p style="margin: 0; margin-bottom: 10px;">{{.Description}}</p>
+          {{ .Render "p"}}
+        </div>
       </div>
       {{- end }}
     </main>

@@ -5,6 +5,7 @@ description: "A chain is only as strong as its weakest link"
 categories: ["tech"]
 tags: ["linux", "security", "research"]
 layout: post
+thumbnail: /img/torvalds.jpg
 ---
 
 Why encrypt? The better question, in my opinion, is why **not** encrypt? With

@@ -26,21 +26,26 @@ body {
   background-color: var(--darker-grey);
   color: white;
 
-  height: 100%;
+  /* height: 100%; */
   position: relative;
 }
 
 header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-content: middle;
+  align-items: center;
   text-align: center;
-  margin: 0px 2rem 0px 1.5rem;
-  flex-basis: 164px;
+  /* margin: 0px 2rem 0px 1.5rem; */
+  margin-left: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  /* flex-basis: 164px; */
 }
 
 main {
-  padding: 20px;
+  /* padding: 20px; */
+  margin-left: 2%;
   max-width: 800px;
 
   animation: load_animation ease 0.7s;
@@ -49,7 +54,7 @@ main {
 }
 
 main h2 {
-  margin-top: 35px;
+  /* margin-top: 35px; */
   margin-bottom: 0.5rem;
 }
 
@@ -136,9 +141,7 @@ ul li {
 }
 
 .logo {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  width: 120px;
+  width: 64px;
   transition: 1s ease;
 }
 
@@ -148,34 +151,56 @@ ul li {
 
 .menu {
   display: flex;
-  flex-direction: column;
-  padding-bottom: 1%;
+  flex-direction: row;
+  /* padding-bottom: 1%; */
+  padding-left: 20px;
 }
 
 a.menu-item {
   color: white;
   padding: 10px;
-  font-size: 1.45rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 1.25rem;
   border-radius: 5px;
-  margin-bottom: 1rem;
+  border-style: solid;
+  border-width: 1px;
 }
 
-a.menu-item:hover {
+a.menu-item:hover, a.menu-item-selected {
   background-color: var(--red);
   transition: background-color 0.2s ease;
 }
 
 .footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  /* gap: 20px; */
+  /* align-items: start; */
   margin-top: auto;
+  /* TODO: fix this hacky behavior: im just using 2% everywhere! make a container that has this padding __once__ */
+  margin-left: 2%;
+  flex-grow: 0;
+  /* align-items: center; */
+}
+
+footer hr {
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .footer p {
-  text-align: center;
+  font-size: medium;
+  line-height: 100%;
 }
 
 .main-container {
   display: flex;
-  min-height: 100vh;
+  flex-direction: column;
+  /* min-height: 100vh; */
   position: relative;
   padding-bottom: 30px;
 }
@@ -198,6 +223,7 @@ a.menu-item:hover {
   color: white;
 }
 
+/* TODO: make this a bit cooler looking; its just a lame copy of a tag rn */
 .category {
   color: whitesmoke;
   padding: 0.5rem;
@@ -219,15 +245,6 @@ a.menu-item:hover {
   border-style: solid;
   border-width: 0.1rem;
   padding: 0.2rem;
-}
-
-main img {
-  max-width: 100%;
-  height: auto;
-  border: 3px solid;
-  border-color: #ff5543;
-  border-radius: 0.1rem;
-  padding: 0.5rem;
 }
 
 /* TODO: Notice blocks (Like quote blocks in Markdown) */
@@ -269,6 +286,7 @@ main img {
   }
 
   header {
+    flex-direction: column;
     margin: 0;
   }
 
@@ -277,10 +295,12 @@ main img {
   }
 
   .menu {
-    flex-direction: row;
+    flex-direction: column;
+    gap: 15px;
     overflow: scroll; /* Always show scrollbars */
     overflow-x: scroll;
     width: 100%;
+    margin-bottom: 5%;
   }
 
   a.menu-item {
@@ -300,10 +320,6 @@ main img {
     transition: 1s ease;
   }
 
-  .footer {
-    display: none;
-  }
-
   .date-and-tags {
     display: flex;
     flex-direction: column;
@@ -314,6 +330,15 @@ main img {
     width: fit-content;
     flex-shrink: 1;
   }
+}
+
+.blog-post main img {
+  max-width: 100%;
+  height: auto;
+  border: 3px solid;
+  border-color: #ff5543;
+  border-radius: 0.1rem;
+  padding: 0.5rem;
 }
 
 /*            */

@@ -1,10 +1,11 @@
 ---
 title: "Painless and Automated Backups"
 date: 2023-09-16
+description: "After much procrastination, I finally created the Ultimate (tm) backup solution"
 categories: ["tech"]
-tags: ["homelab"]
-draft: false
+tags: ["homelab", "linux"]
 layout: post
+thumbnail: /img/containerized-backup-server.svg
 ---
 
 The times I've needed backups the most were when I didn't have them. I finally
