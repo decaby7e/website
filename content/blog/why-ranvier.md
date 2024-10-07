@@ -1,6 +1,7 @@
 ---
 title: Why "Ranvier"?
 date: 2023-09-17
+categories: ["tech"]
 tags: ["meta"]
 layout: post
 draft: false

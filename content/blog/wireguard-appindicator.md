@@ -2,6 +2,7 @@
 title: "Wireguard AppIndicator"
 date: 2019-12-30T20:03:30-05:00
 description: "An easy way to manage your Wireguard connection."
+categories: ["tech"]
 tags: ["project"]
 draft: false
 layout: post

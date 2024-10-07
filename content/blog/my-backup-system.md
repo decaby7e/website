@@ -1,6 +1,7 @@
 ---
 title: "Painless and Automated Backups"
 date: 2023-09-16
+categories: ["tech"]
 tags: ["homelab"]
 draft: false
 layout: post

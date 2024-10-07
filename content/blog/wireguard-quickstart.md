@@ -2,6 +2,7 @@
 title: "Wireguard Quickstart"
 date: 2020-05-28T23:47:53-04:00
 draft: false
+categories: ["tech"]
 tags: ["wireguard", "tutorial"]
 layout: post
 ---

@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- TODO: dedup with blog folder -->
-
 <head>
   {{ partial "head.html"}}
   <title>{{ .Title }}</title>
@@ -15,9 +13,15 @@
     <main>
       <!-- Gets _index.md from the blog/ folder -->
       <h1>{{.Title}}</h1>
+      
+      <h2>Categories</h2>
+      <br>
+      {{- range $name,$_ := .Site.Taxonomies.categories }}
+      <a class="category" href="/categories/{{ $name }}">{{ $name }}</a>
+      {{ end }}
 
-      {{ .Content }}
-
+      <h2>All Posts</h2>
+      
       {{- range .Pages }}
       <div class="post">
         <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>

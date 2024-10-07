@@ -2,9 +2,11 @@
 title: ALL The Volcanos
 description: "The Slumbering Beasts of the Cascades"
 date: 2024-09-24
+categories: ["adventure"]
 tags: ["mountaineering"]
 layout: post
-draft: false
+aliases:
+ - /adventures/climbing-all-the-volcanos
 ---
 
 When I moved out here, my friend Justin Chen convinced me to take a

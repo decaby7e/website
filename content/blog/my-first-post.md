@@ -2,6 +2,7 @@
 title: "My First Post"
 date: 2019-11-29T07:47:55Z
 draft: false
+categories: ["tech"]
 tags: ["meta"]
 description: "Every blog should have a first post, so here's mine!"
 layout: post

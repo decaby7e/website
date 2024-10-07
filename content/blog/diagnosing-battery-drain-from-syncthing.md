@@ -1,6 +1,7 @@
 ---
 title: "Why Is My Phone Dead In The Mountains?"
 date: 2023-09-16
+categories: ["tech"]
 tags: ["debugging", "android"]
 draft: false
 layout: post

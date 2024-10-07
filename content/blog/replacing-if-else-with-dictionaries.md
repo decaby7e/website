@@ -2,6 +2,7 @@
 title: Replacing If-Else with Dictionaries in Python
 date: 2022-01-25T23:21:00-05:00
 draft: false
+categories: ["tech"]
 tags: ["python"]
 layout: post
 ---

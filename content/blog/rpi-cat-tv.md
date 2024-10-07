@@ -3,6 +3,7 @@ title: "Playing Cat Videos for my Cat with a Raspberry Pi"
 date: 2022-02-04T22:45:00-05:00
 description: "Doing the least to get the most out of a Raspberry Pi Zero W as a 'dashboard'"
 draft: false
+categories: ["tech"]
 tags: ["linux", "raspberry pi"]
 layout: post
 ---

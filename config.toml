@@ -2,5 +2,9 @@ baseURL = "https://www.ranvier.net/"
 languageCode = "en-us"
 title = "Ranvier"
 
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
 [markup.goldmark.renderer]
   unsafe = true # Allow HTML in md files

@@ -1,6 +1,7 @@
 ---
 title: "CTF Flask Caching"
 date: 2020-12-03T08:14:05-05:00
+categories: ["tech"]
 tags: ["infosec", "ctf", "python"]
 draft: false
 layout: post

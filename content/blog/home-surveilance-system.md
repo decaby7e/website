@@ -2,6 +2,7 @@
 title: "Home Surveillance System"
 date: 2019-12-25T22:41:49-05:00
 description: ""
+categories: ["tech"]
 tags: ["homelab", "project"]
 draft: false
 layout: post

@@ -1,5 +1,5 @@
 ---
-title: Tech Blog
+title: Tech
 ---
 
 Projects, tutorials, and research I've found interesting enough to want to write

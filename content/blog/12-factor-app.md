@@ -2,6 +2,7 @@
 title: Bootstrapping Our 12 Factor App with GitHub Actions, Docker Compose, and Digital Ocean
 date: 2021-08-02
 author: Jack Polk
+categories: ["tech"]
 tags: ["devlog", "devops"]
 draft: false
 layout: post

@@ -2,6 +2,7 @@
 title: "Ranvier Docker Images"
 date: 2020-05-24
 description: ""
+categories: ["tech"]
 tags: ["docker", "project"]
 draft: false
 layout: post

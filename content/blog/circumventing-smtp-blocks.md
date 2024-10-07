@@ -2,6 +2,7 @@
 title: "Circumventing SMTP Blocking by ISP using Digital Ocean"
 date: 2021-10-27
 description: "ISP blocking port 25? Not anymore! (Only $5 a month!)"
+categories: ["tech"]
 tags: ["networking", "homelab"]
 draft: false
 layout: post

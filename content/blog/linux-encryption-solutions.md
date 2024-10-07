@@ -2,6 +2,7 @@
 title: "Overview of Linux Encryption Solutions"
 date: 2023-08-18
 description: "A chain is only as strong as its weakest link"
+categories: ["tech"]
 tags: ["linux", "security", "research"]
 layout: post
 ---

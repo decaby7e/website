@@ -198,6 +198,20 @@ a.menu-item:hover {
   color: white;
 }
 
+.category {
+  color: whitesmoke;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: x-large;
+  background-color: var(--grey);
+}
+
+.category:hover {
+  transition: background-color 0.3s ease;
+  background-color: var(--red);
+  color: white;
+}
+
 .post-date {
   display: inline-block;
   border-color: var(--light-grey);

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {{ partial "head.html"}}
+  <title>{{ .Title }}</title>
+</head>
+
+<body>
+  <container class="main-container">
+    {{ partial "header.html" }}
+    <main>
+      <h1>{{.Title}}</h1>
+      <div style="display: flex; flex-direction: column; margin-bottom: 2rem;">
+        <div style="display: flex; flex-direction: row; align-items: center; gap: 1rem; margin-bottom: 0.5rem;">
+          <div class="post-date" style="width: fit-content">
+            <span>{{ .Date.Format "January 2, 2006" }}</span>
+          </div>
+        </div>
+        <div class="tag-list" style="padding-top: 4px;">
+          {{- range .Params.tags }}
+          <!-- Put these in a div to fix spacing issues -->
+          <a class="tag" href="/tags/{{ . }}">{{.}}</a>
+          {{- end }}
+        </div>
+      </div>
+      {{ .Content }}
+    </main>
+  </container>
+</body>
+
+{{ partial "footer.html" }}
+
+</html>

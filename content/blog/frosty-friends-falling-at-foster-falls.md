@@ -2,9 +2,11 @@
 title: Frosty Friends Falling at Foster Falls
 description: "Freezing and falling on the frosty sport climbs of Foster Falls with fantastic friends from Florida"
 date: 2023-12-17
+categories: ["adventure"]
 tags: ["climbing", "oar"]
 layout: post
-draft: false
+aliases:
+ - /adventures/frosty-friends-falling-at-foster-falls
 ---
 
 ![The Falls of Foster Falls!](https://public.ranvier.net/images/frosty-friends-falling-at-foster-falls/0006.jpeg)

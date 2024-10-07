@@ -2,6 +2,7 @@
 title: "Headless Raspberry Pi Setup (Raspberry Pi 4 support)"
 date: 2020-01-20T17:51:00-05:00
 description: "How to setup a Raspberry Pi without a monitor, keyboard, mouse, ..."
+categories: ["tech"]
 tags: ["tutorial", "raspberry pi", "networking", "docker"]
 draft: true
 layout: post
