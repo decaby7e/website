@@ -23,4 +23,4 @@ of SpigotMC). I'm planning to upload more, including:
 
 Until then!
 
-{{< image src="/img/ranvier-docker.png" >}}
+![]("/img/ranvier-docker.png")

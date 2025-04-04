@@ -8,7 +8,7 @@ layout: post
 thumbnail: /img/camera-hacker.jpeg
 ---
 
-{{< image src="/img/camera-hacker.jpeg" alt="Camera Network Diagram" >}}
+![Camera Network Diagram]("/img/camera-hacker.jpeg")
 
 ## Introduction
 
@@ -36,7 +36,7 @@ These components can be fitted together in a variety of ways but I found that
 the central server architecture was the most viable and easy to implement for
 me. The diagram below shows a rough concept:
 
-{{< image src="/img/Home-Surveilance-Concept.jpg" alt="Camera Network Diagram" >}}
+![Camera Network Diagram]("/img/Home-Surveilance-Concept.jpg")
 
 Additionally, I would like for this system to be highly redundant. This means
 that if the router loses power and comes back on everything should resume

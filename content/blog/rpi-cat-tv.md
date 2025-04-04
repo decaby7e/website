@@ -19,7 +19,7 @@ wants to play with it! I decided a Raspberry Pi Zero W would be sufficient for
 the job. Just load some videos on there and have them come on at specific times
 during the day.
 
-{{< image src="/img/katie.jpg" >}}
+![]("/img/katie.jpg")
 
 *What are you working on?*
 

@@ -61,7 +61,7 @@ wg genkey | tee privatekey | wg pubkey > publickey
 
 ## Traditional Catch-All VPN
 
-{{< image src="/img/wireguard-quickstart-trad.svg" >}}
+![]("/img/wireguard-quickstart-trad.svg")
 
 This setup is akin to what you would see with a traditional VPN service from
 someone like NordVPN or Private Internet Access. You might also do something
@@ -87,7 +87,7 @@ Endpoint=<SERVER IP>:51820
 
 ## Connecting to a Private Network (e.g. Home or work)
 
-{{< image src="/img/wireguard-quickstart-priv.svg" alt="image is taking a break" >}}
+![image is taking a break]("/img/wireguard-quickstart-priv.svg")
 
 If you would like to access a private network (e.g. your home so you can access
 a NAS or computers that you would like to keep private) from a remote location,

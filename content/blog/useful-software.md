@@ -37,7 +37,7 @@ improve my QoL:
 - [Arronax](https://www.florian-diesch.de/software/arronax/) - Program for
   creating and modifying .desktop files
 
-{{< image src="/img/neon-screenshot.png" >}}
+![]("/img/neon-screenshot.png")
 
 _NOTE_: Recently, I have tried most of the vanilla options on Ubuntu 19.10 and
 have been very pleased with the default gnome-shell theme. Therefore, I have

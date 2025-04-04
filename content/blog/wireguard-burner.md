@@ -8,7 +8,7 @@ layout: post
 thumbnail: /img/wg-burner.png
 ---
 
-{{< image src="/img/wg-burner.png" >}}
+![]("/img/wg-burner.png")
 
 ## Introduction
 
