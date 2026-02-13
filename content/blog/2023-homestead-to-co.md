@@ -1,12 +1,16 @@
 ---
 title: I'm Out Of My Element! (Driving from Homestead to Colorado)
-description: "Driving From South Florida to Colorado in my newly acquired Honda Element didn't go to plan"
+description: Driving From South Florida to Colorado in my newly acquired Honda Element didn't go to plan
 date: 2023-08-19
-categories: ["adventure"]
-tags: ["hiking", "climbing"]
+categories:
+  - adventure
+tags:
+  - hiking
+  - climbing
+  - travel
 layout: post
 aliases:
- - /adventures/2023-homestead-to-co
+  - /adventures/2023-homestead-to-co
 thumbnail: https://public.ranvier.net/images/trip-2023-homestead-to-co/PXL_20230803_020538479.jpeg
 ---
 
