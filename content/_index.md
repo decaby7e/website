@@ -11,11 +11,6 @@ are building distributed systems at AWS, frontend/backend web development, and
 homelab/self-hosting. My current personal focus is on climbing the tallest, coolest,
 most remote rocks in Washington and not dying in the process.
 
-Some of my other interests include:
-
-- Biking
-- Making little songs
-
 If you would like to contact me, send me an email! (decaby7e at this domain) 📫
 
 <a href="https://github.com/decaby7e/">
