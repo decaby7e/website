@@ -13,6 +13,10 @@ A digital speedometer for your Subaru Sambar. No ECU required!
 
 A hiking app that doesn't charge you a subscription fee to be used off the grid outside!
 
+### Medivoice ([medivoice.ranvier.net](https://medivoice.ranvier.net))
+
+AI-Powered receptionists that don't act like robots and (try) not to waste your time.
+
 ## Cybersecurity Lectures
 
 ### Intro to ...
