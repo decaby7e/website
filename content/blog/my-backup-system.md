@@ -3,7 +3,7 @@ title: "Painless and Automated Backups"
 date: 2023-09-16
 description: "After much procrastination, I finally created the Ultimate (tm) backup solution"
 categories: ["tech"]
-tags: ["homelab", "linux"]
+tags: ["self-hosting", "linux"]
 layout: post
 thumbnail: /img/containerized-backup-server.svg
 ---

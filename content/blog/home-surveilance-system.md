@@ -3,7 +3,7 @@ title: "Home Surveillance System"
 date: 2019-12-25T22:41:49-05:00
 description: "Watching out for dirty thieves on the cheap!"
 categories: ["tech"]
-tags: ["homelab", "project"]
+tags: ["self-hosting", "project"]
 layout: post
 thumbnail: /img/camera-hacker.jpeg
 ---

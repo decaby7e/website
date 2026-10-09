@@ -4,7 +4,7 @@ date: 2022-02-10T01:33:00-05:00
 description: "Skip the hypervisor for a slimmer solution"
 draft: false
 categories: ["tech"]
-tags: ["linux", "homelab", "containers"]
+tags: ["linux", "self-hosting", "containers"]
 layout: post
 thumbnail: /img/alpine-love.png
 ---

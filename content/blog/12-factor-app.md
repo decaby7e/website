@@ -1,10 +1,13 @@
 ---
 title: Bootstrapping Our 12 Factor App with GitHub Actions, Docker Compose, and Digital Ocean
 date: 2021-08-02
-description: "Who knew devops could be so fun? Them green checkmarks are so satisfying..."
+description: Who knew devops could be so fun? Them green checkmarks are so satisfying...
 author: Jack Polk
-categories: ["tech"]
-tags: ["project", "devops"]
+categories:
+  - tech
+tags:
+  - project
+  - self-hosting
 layout: post
 thumbnail: /img/12-factor-symbol.png
 ---

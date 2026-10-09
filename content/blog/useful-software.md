@@ -3,7 +3,7 @@ title: "Useful Software"
 date: 2019-12-17T03:00:27Z
 description: "A list of self-hosted services, development tools, and miscellaneous applications that I've found super useful."
 categories: ["tech"]
-tags: ["list", "homelab"]
+tags: ["list", "self-hosting"]
 draft: false
 layout: post
 ---

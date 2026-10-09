@@ -3,7 +3,7 @@ title: "Wireguard Burner VPN"
 date: 2019-11-30T04:38:51Z
 description: "You're not a fed right? Ok, come right in.."
 categories: ["tech"]
-tags: ["project", "homelab"]
+tags: ["project", "self-hosting"]
 layout: post
 thumbnail: /img/wg-burner.png
 ---
