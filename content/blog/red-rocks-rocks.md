@@ -10,4 +10,5 @@ tags:
   - oar
 layout: post
 thumbnail: https://public.ranvier.net/images/red-rocks-rocks/thumbnail.jpg
+draft: true
 ---

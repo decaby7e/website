@@ -10,6 +10,7 @@ tags:
   - linux
 layout: post
 thumbnail: https://public.ranvier.net/images/digital-sambar-speedo/thumbnail.jpg
+draft: true
 ---
 Another classic Jack and David silly idea (see [reference 1](https://www.ranvier.net/blog/delulu-the-jb470/) for more info).
 
